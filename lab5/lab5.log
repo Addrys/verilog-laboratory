@@ -1,0 +1,30 @@
+Command: /home/users14/ja425322/526L/Lab5/./simv -l lab5.log
+Chronologic VCS simulator copyright 1991-2023
+Contains Synopsys proprietary information.
+Compiler version U-2023.03-SP1_Full64; Runtime version U-2023.03-SP1_Full64;  Oct 13 14:32 2024
+VCD+ Writer U-2023.03-SP1_Full64 Copyright (c) 1991-2023 by Synopsys Inc.
+                   0 | RST = 0, ENA = 1 | DATA =   0 | R =   x
+                  20 | RST = 0, ENA = 1 | DATA =   0 | R =   0
+                 100 | RST = 1, ENA = 1 | DATA =  15 | R =   0
+                 158 | RST = 1, ENA = 1 | DATA =  15 | R =  15
+                 200 | RST = 0, ENA = 1 | DATA =  15 | R =  15
+                 220 | RST = 0, ENA = 1 | DATA =  15 | R =   0
+                 300 | RST = 1, ENA = 1 | DATA =  15 | R =   0
+                 329 | RST = 1, ENA = 1 | DATA =  15 | R =  15
+                 400 | RST = 1, ENA = 0 | DATA =   7 | R =  15
+                 500 | RST = 1, ENA = 0 | DATA =   3 | R =  15
+                 600 | RST = 1, ENA = 1 | DATA =   5 | R =  15
+                 670 | RST = 1, ENA = 1 | DATA =   5 | R =   5
+                 700 | RST = 0, ENA = 1 | DATA =   5 | R =   5
+                 720 | RST = 0, ENA = 1 | DATA =   5 | R =   0
+                 800 | RST = 1, ENA = 1 | DATA =   5 | R =   0
+                 830 | RST = 1, ENA = 1 | DATA =   5 | R =   5
+                 900 | RST = 1, ENA = 1 | DATA =   2 | R =   5
+                 942 | RST = 1, ENA = 1 | DATA =   2 | R =   7
+                 950 | RST = 1, ENA = 1 | DATA =   2 | R =   2
+$finish called from file "reg_test.v", line 29.
+$finish at simulation time                10000
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 1000000 ps
+CPU Time:      0.200 seconds;       Data structure size:   0.0Mb
+Sun Oct 13 14:32:03 2024

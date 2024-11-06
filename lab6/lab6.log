@@ -1,0 +1,53 @@
+Command: /home/users14/ja425322/526L/Lab6/./simv -l lab6.log
+Chronologic VCS simulator copyright 1991-2023
+Contains Synopsys proprietary information.
+Compiler version U-2023.03-SP1_Full64; Runtime version U-2023.03-SP1_Full64;  Oct 20 21:26 2024
+VCD+ Writer U-2023.03-SP1_Full64 Copyright (c) 1991-2023 by Synopsys Inc.
+                   0  Data= 240 | RST= 1 | ENA= 1 | LOAD = 0 | COUNT=   x
+                  67  Data= 240 | RST= 0 | ENA= 1 | LOAD = 0 | COUNT=   0
+                  70  Data= 240 | RST= 1 | ENA= 1 | LOAD = 0 | COUNT=   0
+                 110  Data= 240 | RST= 1 | ENA= 1 | LOAD = 0 | COUNT=   1
+                 130  Data= 240 | RST= 1 | ENA= 1 | LOAD = 0 | COUNT=   2
+                 150  Data= 240 | RST= 1 | ENA= 1 | LOAD = 0 | COUNT=   3
+                 170  Data= 240 | RST= 1 | ENA= 1 | LOAD = 0 | COUNT=   4
+                 190  Data= 240 | RST= 1 | ENA= 1 | LOAD = 0 | COUNT=   5
+                 210  Data= 240 | RST= 1 | ENA= 1 | LOAD = 0 | COUNT=   6
+                 230  Data= 240 | RST= 1 | ENA= 1 | LOAD = 0 | COUNT=   7
+                 250  Data= 240 | RST= 1 | ENA= 1 | LOAD = 1 | COUNT=   8
+                 270  Data= 240 | RST= 1 | ENA= 1 | LOAD = 1 | COUNT= 240
+                 272  Data= 240 | RST= 1 | ENA= 1 | LOAD = 0 | COUNT= 240
+                 290  Data= 240 | RST= 1 | ENA= 1 | LOAD = 0 | COUNT= 241
+                 310  Data= 240 | RST= 1 | ENA= 1 | LOAD = 0 | COUNT= 242
+                 330  Data= 240 | RST= 1 | ENA= 1 | LOAD = 0 | COUNT= 243
+                 350  Data= 240 | RST= 1 | ENA= 1 | LOAD = 0 | COUNT= 244
+                 370  Data= 240 | RST= 1 | ENA= 1 | LOAD = 0 | COUNT= 245
+                 390  Data= 240 | RST= 1 | ENA= 1 | LOAD = 0 | COUNT= 246
+                 410  Data= 240 | RST= 1 | ENA= 1 | LOAD = 0 | COUNT= 247
+                 430  Data= 240 | RST= 1 | ENA= 1 | LOAD = 0 | COUNT= 248
+                 450  Data= 240 | RST= 1 | ENA= 1 | LOAD = 0 | COUNT= 249
+                 470  Data= 240 | RST= 1 | ENA= 1 | LOAD = 0 | COUNT= 250
+                 490  Data= 240 | RST= 1 | ENA= 1 | LOAD = 0 | COUNT= 251
+                 510  Data= 240 | RST= 1 | ENA= 1 | LOAD = 0 | COUNT= 252
+                 530  Data= 240 | RST= 1 | ENA= 1 | LOAD = 0 | COUNT= 253
+                 550  Data= 240 | RST= 1 | ENA= 1 | LOAD = 0 | COUNT= 254
+                 570  Data= 240 | RST= 1 | ENA= 1 | LOAD = 0 | COUNT= 255
+                 590  Data= 240 | RST= 1 | ENA= 1 | LOAD = 0 | COUNT=   0
+                 610  Data= 240 | RST= 1 | ENA= 1 | LOAD = 0 | COUNT=   1
+                 630  Data= 240 | RST= 1 | ENA= 1 | LOAD = 0 | COUNT=   2
+                 650  Data= 240 | RST= 1 | ENA= 1 | LOAD = 0 | COUNT=   3
+                 670  Data= 240 | RST= 1 | ENA= 1 | LOAD = 0 | COUNT=   4
+                 690  Data= 240 | RST= 1 | ENA= 1 | LOAD = 0 | COUNT=   5
+                 710  Data= 240 | RST= 1 | ENA= 1 | LOAD = 0 | COUNT=   6
+                 730  Data= 240 | RST= 1 | ENA= 1 | LOAD = 0 | COUNT=   7
+                 750  Data= 240 | RST= 1 | ENA= 1 | LOAD = 0 | COUNT=   8
+                 770  Data= 240 | RST= 1 | ENA= 1 | LOAD = 0 | COUNT=   9
+                 772  Data= 240 | RST= 0 | ENA= 1 | LOAD = 1 | COUNT=   0
+                 785  Data= 240 | RST= 1 | ENA= 1 | LOAD = 1 | COUNT=   0
+                 830  Data= 240 | RST= 1 | ENA= 1 | LOAD = 1 | COUNT= 240
+                 845  Data= 240 | RST= 1 | ENA= 0 | LOAD = 1 | COUNT= 240
+$finish called from file "counter_tb.v", line 46.
+$finish at simulation time                 1245
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 1245 ns
+CPU Time:      0.210 seconds;       Data structure size:   0.0Mb
+Sun Oct 20 21:26:16 2024

@@ -1,0 +1,21 @@
+Command: /home/users14/ja425322/526L/Lab3/./simv -l Lab3_delay.log
+Chronologic VCS simulator copyright 1991-2023
+Contains Synopsys proprietary information.
+Compiler version U-2023.03-SP1_Full64; Runtime version U-2023.03-SP1_Full64;  Sep 29 20:34 2024
+VCD+ Writer U-2023.03-SP1_Full64 Copyright (c) 1991-2023 by Synopsys Inc.
+                   0: in1 = x, in2 = x, | out = x | A1 = x | A2 = x | NT = x
+                  15: in1 = 0, in2 = 0, | out = x | A1 = x | A2 = x | NT = x
+                  17: in1 = 0, in2 = 0, | out = x | A1 = x | A2 = x | NT = 1
+                  18: in1 = 0, in2 = 0, | out = x | A1 = 0 | A2 = 0 | NT = 1
+                  27: in1 = 0, in2 = 0, | out = 1 | A1 = 0 | A2 = 0 | NT = 1
+                  30: in1 = 0, in2 = 1, | out = 1 | A1 = 0 | A2 = 0 | NT = 1
+                  45: in1 = 1, in2 = 0, | out = 1 | A1 = 0 | A2 = 0 | NT = 1
+                  47: in1 = 1, in2 = 0, | out = 1 | A1 = 0 | A2 = 0 | NT = 0
+                  60: in1 = 1, in2 = 1, | out = 1 | A1 = 0 | A2 = 0 | NT = 0
+                  63: in1 = 1, in2 = 1, | out = 1 | A1 = 1 | A2 = 0 | NT = 0
+$finish called from file "lab3_delay_tb.v", line 42.
+$finish at simulation time                  750
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 75000 ps
+CPU Time:      0.180 seconds;       Data structure size:   0.0Mb
+Sun Sep 29 20:34:40 2024

@@ -1,0 +1,18 @@
+Command: /home/users14/ja425322/526L/Lab7/./simv -l lab7
+Chronologic VCS simulator copyright 1991-2023
+Contains Synopsys proprietary information.
+Compiler version U-2023.03-SP1_Full64; Runtime version U-2023.03-SP1_Full64;  Oct 27 14:37 2024
+VCD+ Writer U-2023.03-SP1_Full64 Copyright (c) 1991-2023 by Synopsys Inc.
+                   0  A= 000000 | B= 111111 | SEL= x | OUT_1= x | OUT_4= xxxx | OUT_5= xxxxx | OUT_6= xxxxxx
+                   5  A= 000001 | B= 111101 | SEL= x | OUT_1= 1 | OUT_4= xx01 | OUT_5= xxx01 | OUT_6= xxxx01
+                  10  A= 000010 | B= 111110 | SEL= x | OUT_1= 0 | OUT_4= xx10 | OUT_5= xxx10 | OUT_6= xxxx10
+                  15  A= 001000 | B= 111011 | SEL= x | OUT_1= x | OUT_4= 10xx | OUT_5= x10xx | OUT_6= xx10xx
+                  20  A= 000100 | B= 110111 | SEL= x | OUT_1= x | OUT_4= 01xx | OUT_5= x01xx | OUT_6= xx01xx
+                  25  A= 100000 | B= 101111 | SEL= x | OUT_1= x | OUT_4= xxxx | OUT_5= 0xxxx | OUT_6= 10xxxx
+                  30  A= 010000 | B= 011111 | SEL= x | OUT_1= x | OUT_4= xxxx | OUT_5= 1xxxx | OUT_6= 01xxxx
+                  35  A= 011001 | B= 101110 | SEL= 0 | OUT_1= 1 | OUT_4= 1001 | OUT_5= 11001 | OUT_6= 011001
+                  40  A= 011001 | B= 101110 | SEL= 1 | OUT_1= 0 | OUT_4= 1110 | OUT_5= 01110 | OUT_6= 101110
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 40 ns
+CPU Time:      0.210 seconds;       Data structure size:   0.0Mb
+Sun Oct 27 14:37:40 2024

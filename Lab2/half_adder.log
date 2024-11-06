@@ -1,0 +1,16 @@
+Command: /home/users14/ja425322/526L/Lab2/./simv -l half_adder.log
+Chronologic VCS simulator copyright 1991-2023
+Contains Synopsys proprietary information.
+Compiler version U-2023.03-SP1_Full64; Runtime version U-2023.03-SP1_Full64;  Sep 21 17:41 2024
+VCD+ Writer U-2023.03-SP1_Full64 Copyright (c) 1991-2023 by Synopsys Inc.
+                   0: A = x, B = x, | C = x, S = x
+                  15: A = 0, B = 0, | C = 0, S = 0
+                  30: A = 0, B = 1, | C = 0, S = 1
+                  45: A = 1, B = 0, | C = 0, S = 1
+                  60: A = 1, B = 1, | C = 1, S = 0
+$finish called from file "half_adder_tb.v", line 29.
+$finish at simulation time                   75
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 75 ns
+CPU Time:      0.180 seconds;       Data structure size:   0.0Mb
+Sat Sep 21 17:41:42 2024

@@ -1,0 +1,30 @@
+Command: /home/users14/ja425322/526L/Lab4/./simv -l dff.log
+Chronologic VCS simulator copyright 1991-2023
+Contains Synopsys proprietary information.
+Compiler version U-2023.03-SP1_Full64; Runtime version U-2023.03-SP1_Full64;  Oct  6 23:40 2024
+VCD+ Writer U-2023.03-SP1_Full64 Copyright (c) 1991-2023 by Synopsys Inc.
+Start of the test at T =                    0
+                   0 | D= 0, Clr= 1 | Q= x, Qbar= x
+Simulation ended at T =                    0 with the final values: Q= x, Qbar= x
+                 648 | D= 0, Clr= 1 | Q= x, Qbar= 1
+                 708 | D= 0, Clr= 1 | Q= 0, Qbar= 1
+               10000 | D= 0, Clr= 0 | Q= 0, Qbar= 1
+               20000 | D= 0, Clr= 1 | Q= 0, Qbar= 1
+               30000 | D= 1, Clr= 1 | Q= 0, Qbar= 1
+               30325 | D= 1, Clr= 1 | Q= 1, Qbar= 1
+               30395 | D= 1, Clr= 1 | Q= 1, Qbar= 0
+               40000 | D= 1, Clr= 0 | Q= 1, Qbar= 0
+               40140 | D= 1, Clr= 0 | Q= 1, Qbar= 1
+               40200 | D= 1, Clr= 0 | Q= 0, Qbar= 1
+               50000 | D= 1, Clr= 1 | Q= 0, Qbar= 1
+               51025 | D= 1, Clr= 1 | Q= 1, Qbar= 1
+               51095 | D= 1, Clr= 1 | Q= 1, Qbar= 0
+               70000 | D= 0, Clr= 1 | Q= 1, Qbar= 0
+               70848 | D= 0, Clr= 1 | Q= 1, Qbar= 1
+               70908 | D= 0, Clr= 1 | Q= 0, Qbar= 1
+$finish called from file "dff_tb.v", line 33.
+$finish at simulation time                80000
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 8000000 ps
+CPU Time:      0.190 seconds;       Data structure size:   0.0Mb
+Sun Oct  6 23:40:22 2024

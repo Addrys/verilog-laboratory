@@ -1,0 +1,1 @@
+vcs -debug_access+all dff.v MUX2_1.v register.v reg_test.v sr_latch.v
