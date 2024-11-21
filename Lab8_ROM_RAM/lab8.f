@@ -1,0 +1,1 @@
+vcs -debug_access+all RAM.v ROM.v RAM_tb2.v 

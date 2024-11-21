@@ -1,0 +1,79 @@
+Command: /home/users14/ja425322/526L/Lab8/./simv -l ram_tb2.log
+Chronologic VCS simulator copyright 1991-2023
+Contains Synopsys proprietary information.
+Compiler version U-2023.03-SP1_Full64; Runtime version U-2023.03-SP1_Full64;  Nov 20 19:19 2024
+VCD+ Writer U-2023.03-SP1_Full64 Copyright (c) 1991-2023 by Synopsys Inc.
+---------------MEMORY CONTENT START-----------------
+                   0 | Addr (xx) = xxxxxxxx | OE= 1 | WS= 0 | CS =0
+                   5 | Addr (00) = xxxxxxxx | OE= 1 | WS= 0 | CS =0
+                  10 | Addr (01) = xxxxxxxx | OE= 1 | WS= 0 | CS =0
+                  15 | Addr (02) = xxxxxxxx | OE= 1 | WS= 0 | CS =0
+                  20 | Addr (03) = xxxxxxxx | OE= 1 | WS= 0 | CS =0
+                  25 | Addr (04) = 01011000 | OE= 1 | WS= 0 | CS =0
+                  30 | Addr (05) = 11101101 | OE= 1 | WS= 0 | CS =0
+                  35 | Addr (06) = 10110111 | OE= 1 | WS= 0 | CS =0
+                  40 | Addr (07) = 00110100 | OE= 1 | WS= 0 | CS =0
+                  45 | Addr (08) = 11001001 | OE= 1 | WS= 0 | CS =0
+                  50 | Addr (09) = 10001111 | OE= 1 | WS= 0 | CS =0
+                  55 | Addr (0a) = 10100000 | OE= 1 | WS= 0 | CS =0
+                  60 | Addr (0b) = 10011011 | OE= 1 | WS= 0 | CS =0
+                  65 | Addr (0c) = 01100101 | OE= 1 | WS= 0 | CS =0
+                  70 | Addr (0d) = 00010001 | OE= 1 | WS= 0 | CS =0
+                  75 | Addr (0e) = 00000011 | OE= 1 | WS= 0 | CS =0
+                  80 | Addr (0f) = 01001100 | OE= 1 | WS= 0 | CS =0
+                  85 | Addr (10) = 11011010 | OE= 1 | WS= 0 | CS =0
+                  90 | Addr (11) = 01111110 | OE= 1 | WS= 0 | CS =0
+                  95 | Addr (12) = 11110010 | OE= 1 | WS= 0 | CS =0
+                 100 | Addr (13) = 00100110 | OE= 1 | WS= 0 | CS =0
+                 105 | Addr (14) = 10000110 | OE= 1 | WS= 0 | CS =0
+                 110 | Addr (15) = 10010101 | OE= 1 | WS= 0 | CS =0
+                 115 | Addr (16) = 11111101 | OE= 1 | WS= 0 | CS =0
+                 120 | Addr (17) = 10110001 | OE= 1 | WS= 0 | CS =0
+                 125 | Addr (18) = xxxxxxxx | OE= 1 | WS= 0 | CS =0
+                 130 | Addr (19) = xxxxxxxx | OE= 1 | WS= 0 | CS =0
+                 135 | Addr (1a) = xxxxxxxx | OE= 1 | WS= 0 | CS =0
+                 140 | Addr (1b) = xxxxxxxx | OE= 1 | WS= 0 | CS =0
+                 145 | Addr (1c) = 00010010 | OE= 1 | WS= 0 | CS =0
+                 150 | Addr (1d) = 10101111 | OE= 1 | WS= 0 | CS =0
+                 155 | Addr (1e) = 00110011 | OE= 1 | WS= 0 | CS =0
+---------------MEMORY CONTENT END-----------------
+---------------SCRAMBLE BITS -----------------
+                 160 | Addr (10) = 11011010 | OE= 1 | WS= 0 | CS =0
+                 165 | Addr (10) = 01110011 | OE= 0 | WS= 0 | CS =0
+                 170 | Addr (10) = zzzzzzzz | OE= 0 | WS= 1 | CS =0
+                 175 | Addr (11) = 01111110 | OE= 1 | WS= 0 | CS =0
+                 180 | Addr (11) = 00111111 | OE= 0 | WS= 0 | CS =0
+                 185 | Addr (11) = zzzzzzzz | OE= 0 | WS= 1 | CS =0
+                 190 | Addr (12) = 11110010 | OE= 1 | WS= 0 | CS =0
+                 195 | Addr (12) = 01110101 | OE= 0 | WS= 0 | CS =0
+                 200 | Addr (12) = zzzzzzzz | OE= 0 | WS= 1 | CS =0
+                 205 | Addr (13) = 00100110 | OE= 1 | WS= 0 | CS =0
+                 210 | Addr (13) = 00101100 | OE= 0 | WS= 0 | CS =0
+                 215 | Addr (13) = zzzzzzzz | OE= 0 | WS= 1 | CS =0
+                 220 | Addr (14) = 10000110 | OE= 1 | WS= 0 | CS =0
+                 225 | Addr (14) = 01101000 | OE= 0 | WS= 0 | CS =0
+                 230 | Addr (14) = zzzzzzzz | OE= 0 | WS= 1 | CS =0
+                 235 | Addr (15) = 10010101 | OE= 1 | WS= 0 | CS =0
+                 240 | Addr (15) = 11001001 | OE= 0 | WS= 0 | CS =0
+                 245 | Addr (15) = zzzzzzzz | OE= 0 | WS= 1 | CS =0
+                 250 | Addr (16) = 11111101 | OE= 1 | WS= 0 | CS =0
+                 255 | Addr (16) = 11011111 | OE= 0 | WS= 0 | CS =0
+                 260 | Addr (16) = zzzzzzzz | OE= 0 | WS= 1 | CS =0
+                 265 | Addr (17) = 10110001 | OE= 1 | WS= 0 | CS =0
+                 270 | Addr (17) = 11000101 | OE= 0 | WS= 0 | CS =0
+                 275 | Addr (17) = zzzzzzzz | OE= 0 | WS= 1 | CS =0
+---------------SCRAMBLE BITS CHECK-----------------
+OK: Memory scramble on Addr=10 = 01110011
+OK: Memory scramble on Addr=11 = 00111111
+OK: Memory scramble on Addr=12 = 01110101
+OK: Memory scramble on Addr=13 = 00101100
+OK: Memory scramble on Addr=14 = 01101000
+OK: Memory scramble on Addr=15 = 11001001
+OK: Memory scramble on Addr=16 = 11011111
+OK: Memory scramble on Addr=17 = 11000101
+$finish called from file "RAM_tb2.v", line 124.
+$finish at simulation time                  365
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 365 ns
+CPU Time:      0.200 seconds;       Data structure size:   0.0Mb
+Wed Nov 20 19:19:53 2024

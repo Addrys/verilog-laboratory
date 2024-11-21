@@ -1,0 +1,10 @@
+//addresses 5’h04 to 5’h0F: 58 ED B7 34 C9 8F A0 9B 65 11 03 4C
+//addresses 5’h10 to 5’h17: 
+//addresses 5’h1C to 5’h1E: 12 AF 33
+
+@04
+58 ED B7 34 C9 8F A0 9B 65 11 03 4C //h04 to h0F
+DA 7E F2 26 86 95 FD B1 // h10 to h17
+@1C
+12 AF 33 // h1C to 1E
+

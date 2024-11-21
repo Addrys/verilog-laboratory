@@ -5,7 +5,7 @@
  ***    LAB 8                                                            ***  
  ***                                                                     ***  
  ***************************************************************************  
- ***    Filename: ROM.v Created by Adrian, Date 11/19/2024               ***  
+ ***    Filename: RAM.v Created by Adrian, Date 11/19/2024               ***  
  ***    --- Code documentation - 11/19/2024 ---                          ***  
  ***************************************************************************  
  ***   Read Only Memory (ROM) created with a register file. It takes     ***
