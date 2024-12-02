@@ -1,0 +1,1 @@
+vcs -debug_access+all alu.v alu_tb.v fulladder.v

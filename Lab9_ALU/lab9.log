@@ -1,0 +1,51 @@
+Command: /home/users14/ja425322/526L/Lab9/./simv -l lab9.log
+Chronologic VCS simulator copyright 1991-2023
+Contains Synopsys proprietary information.
+Compiler version U-2023.03-SP1_Full64; Runtime version U-2023.03-SP1_Full64;  Dec  1 20:54 2024
+VCD+ Writer U-2023.03-SP1_Full64 Copyright (c) 1991-2023 by Synopsys Inc.
+		 ------LOGIC OPERATIONS-----------------
+time =                   0 | sub=x, NEWB=xxxxxxxx | EN=1, OE=1 | OP: xxxx | A=00101110, B=11100100 == xxxxxxxx | CF=x, OF=x, SF=x, ZF=x
+time =                   5 | sub=0, NEWB=11100100 | EN=1, OE=1 | OP: 0100 | A=00101110, B=11100100 == 00100100 | CF=0, OF=0, SF=0, ZF=0
+time =                  10 | sub=0, NEWB=11100100 | EN=1, OE=1 | OP: 0101 | A=00101110, B=11100100 == 00100100 | CF=0, OF=0, SF=0, ZF=0
+time =                  11 | sub=0, NEWB=11100100 | EN=1, OE=1 | OP: 0101 | A=00101110, B=11100100 == 11101110 | CF=0, OF=0, SF=1, ZF=0
+time =                  15 | sub=0, NEWB=11100100 | EN=1, OE=1 | OP: 0110 | A=00101110, B=11100100 == 11001010 | CF=0, OF=0, SF=1, ZF=0
+time =                  20 | sub=0, NEWB=11100100 | EN=1, OE=1 | OP: 0111 | A=00001010, B=11100100 == 11001010 | CF=0, OF=0, SF=1, ZF=0
+time =                  21 | sub=0, NEWB=11100100 | EN=1, OE=1 | OP: 0111 | A=00001010, B=11100100 == 11110101 | CF=0, OF=0, SF=1, ZF=0
+time =                  25 | sub=0, NEWB=11100100 | EN=1, OE=1 | OP: 0100 | A=00001010, B=11100100 == 00000000 | CF=0, OF=0, SF=0, ZF=1
+time =                  30 | sub=0, NEWB=11100100 | EN=1, OE=1 | OP: 1000 | A=00001010, B=11100100 == 00000000 | CF=0, OF=0, SF=0, ZF=1
+time =                  35 | sub=0, NEWB=11100100 | EN=1, OE=1 | OP: 1010 | A=00001010, B=11100100 == 00000000 | CF=0, OF=0, SF=0, ZF=1
+time =                  40 | sub=0, NEWB=11100100 | EN=1, OE=1 | OP: 0000 | A=00001010, B=11100100 == 00000000 | CF=0, OF=0, SF=0, ZF=1
+		 ------OUTPUT ENABLE-----------------
+time =                  50 | sub=0, NEWB=11100100 | EN=1, OE=0 | OP: 0000 | A=00001010, B=11100100 == 00000000 | CF=0, OF=0, SF=0, ZF=1
+time =                  51 | sub=0, NEWB=11100100 | EN=1, OE=0 | OP: 0000 | A=00001010, B=11100100 == zzzzzzzz | CF=0, OF=0, SF=0, ZF=1
+time =                  55 | sub=0, NEWB=11100100 | EN=1, OE=0 | OP: 0000 | A=11110000, B=11100100 == zzzzzzzz | CF=0, OF=0, SF=0, ZF=1
+time =                  65 | sub=0, NEWB=11100100 | EN=1, OE=0 | OP: 0110 | A=11110000, B=11100100 == zzzzzzzz | CF=0, OF=0, SF=0, ZF=1
+time =                  70 | sub=0, NEWB=11100100 | EN=0, OE=0 | OP: 0110 | A=11110000, B=11100100 == zzzzzzzz | CF=0, OF=0, SF=0, ZF=1
+time =                  80 | sub=0, NEWB=11100100 | EN=0, OE=0 | OP: 0100 | A=11110000, B=11100100 == zzzzzzzz | CF=0, OF=0, SF=0, ZF=1
+time =                  85 | sub=0, NEWB=11100100 | EN=1, OE=0 | OP: 0100 | A=11110000, B=11100100 == zzzzzzzz | CF=0, OF=0, SF=0, ZF=1
+		 ------ALU ENABLE-----------------
+time =                  90 | sub=0, NEWB=11100100 | EN=1, OE=1 | OP: 0100 | A=11110000, B=11100100 == zzzzzzzz | CF=0, OF=0, SF=0, ZF=1
+time =                  91 | sub=0, NEWB=11100100 | EN=1, OE=1 | OP: 0100 | A=11110000, B=11100100 == 11100000 | CF=0, OF=0, SF=1, ZF=0
+time =                 100 | sub=0, NEWB=11100100 | EN=0, OE=1 | OP: 0100 | A=11000011, B=11100100 == 11100000 | CF=0, OF=0, SF=1, ZF=0
+time =                 105 | sub=0, NEWB=11100100 | EN=0, OE=1 | OP: 0101 | A=11000011, B=11100100 == 11100000 | CF=0, OF=0, SF=1, ZF=0
+time =                 110 | sub=0, NEWB=11100100 | EN=0, OE=1 | OP: 0111 | A=11000011, B=11100100 == 11100000 | CF=0, OF=0, SF=1, ZF=0
+		 ------ADDITION-----------------
+time =                 115 | sub=0, NEWB=11100100 | EN=1, OE=1 | OP: 0111 | A=00101110, B=11100100 == 11010001 | CF=0, OF=0, SF=1, ZF=0
+time =                 125 | sub=0, NEWB=11100100 | EN=1, OE=1 | OP: 0010 | A=10101110, B=11100100 == 10010010 | CF=1, OF=0, SF=1, ZF=0
+time =                 135 | sub=0, NEWB=11000100 | EN=1, OE=1 | OP: 0010 | A=10000110, B=11000100 == 10011010 | CF=1, OF=0, SF=1, ZF=0
+time =                 137 | sub=0, NEWB=11000100 | EN=1, OE=1 | OP: 0010 | A=10000110, B=11000100 == 01001010 | CF=1, OF=1, SF=0, ZF=0
+time =                 145 | sub=0, NEWB=01111010 | EN=1, OE=1 | OP: 0010 | A=10000110, B=01111010 == 11110100 | CF=1, OF=1, SF=1, ZF=0
+time =                 147 | sub=0, NEWB=01111010 | EN=1, OE=1 | OP: 0010 | A=10000110, B=01111010 == 00000000 | CF=1, OF=0, SF=0, ZF=1
+		 ------SUBSTRACTION-----------------
+time =                 160 | sub=0, NEWB=11100100 | EN=1, OE=1 | OP: 0010 | A=00101110, B=11100100 == 00000000 | CF=1, OF=0, SF=0, ZF=1
+time =                 161 | sub=0, NEWB=11100100 | EN=1, OE=1 | OP: 0010 | A=00101110, B=11100100 == 00010010 | CF=1, OF=0, SF=0, ZF=0
+time =                 170 | sub=1, NEWB=00011011 | EN=1, OE=1 | OP: 0011 | A=10101110, B=11100100 == 00010010 | CF=1, OF=0, SF=0, ZF=0
+time =                 171 | sub=1, NEWB=00011011 | EN=1, OE=1 | OP: 0011 | A=10101110, B=11100100 == 11001010 | CF=0, OF=0, SF=1, ZF=0
+time =                 180 | sub=1, NEWB=00111011 | EN=1, OE=1 | OP: 0011 | A=10000110, B=11000100 == 11001010 | CF=0, OF=0, SF=1, ZF=0
+time =                 181 | sub=1, NEWB=00111011 | EN=1, OE=1 | OP: 0011 | A=10000110, B=11000100 == 11000010 | CF=0, OF=0, SF=1, ZF=0
+$finish called from file "alu_tb.v", line 89.
+$finish at simulation time                  200
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 200 ns
+CPU Time:      0.200 seconds;       Data structure size:   0.0Mb
+Sun Dec  1 20:54:36 2024
