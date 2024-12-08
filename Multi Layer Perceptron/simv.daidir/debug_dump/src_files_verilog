@@ -1,0 +1,9 @@
+/home/users14/ja425322/526L/MLP/DotProduct.sv
+/home/users14/ja425322/526L/MLP/DotProduct_tb.v
+/home/users14/ja425322/526L/MLP/FPU_IP/FPU.v
+/home/users14/ja425322/526L/MLP/FPU_IP/except.v
+/home/users14/ja425322/526L/MLP/FPU_IP/post_norm.v
+/home/users14/ja425322/526L/MLP/FPU_IP/pre_norm.v
+/home/users14/ja425322/526L/MLP/FPU_IP/pre_norm_fmul.v
+/home/users14/ja425322/526L/MLP/FPU_IP/primitives.v
+/home/users14/ja425322/526L/MLP/MultAccumulate.v

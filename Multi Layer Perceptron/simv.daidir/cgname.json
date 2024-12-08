@@ -1,0 +1,44 @@
+{
+    "std": [
+        "std",
+        "reYIK",
+        "module",
+        1
+    ],
+    "tb_DotProduct": [
+        "tb_DotProduct",
+        "EZqGQ",
+        "module",
+        2
+    ],
+    "fpu": [
+        "fpu",
+        "BY2AV",
+        "module",
+        3
+    ],
+    "delay1": [
+        "delay1",
+        "w1Ikd",
+        "module",
+        4
+    ],
+    "delay2": [
+        "delay2",
+        "kSqqm",
+        "module",
+        5
+    ],
+    "delay3": [
+        "delay3",
+        "KA7DJ",
+        "module",
+        6
+    ],
+    "...MASTER...": [
+        "SIM",
+        "amcQw",
+        "module",
+        7
+    ]
+}
