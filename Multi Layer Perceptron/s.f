@@ -1,0 +1,1 @@
+vcs -debug_access+all FPU.v
