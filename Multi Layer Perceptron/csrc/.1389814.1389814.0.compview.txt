@@ -1,0 +1,7 @@
+Command exited with non-zero status 255
+{"vcs1":{"timestamp_begin":1733706745.242733920, "rt":0.12, "ut":0.05, "st":0.02}}
+{"SNPS_VCS_INTERNAL_ROOT_START_TIME": 1733706744.863570559}
+{"VCS_COMP_START_TIME": 1733706744.863570559}
+{"VCS_COMP_END_TIME": 1733706745.428377869}
+{"VCS_USER_OPTIONS": "-sverilog -debug_access+all MLP.sv DotProduct.sv MultAccumulate.v denselayer_tb.sv denselayer.sv FPU_IP/FPU.v FPU_IP/post_norm.v FPU_IP/pre_norm_fmul.v FPU_IP/pre_norm.v FPU_IP/primitives.v FPU_IP/except.v"}
+{"vcs1": {"peak_mem": 358224}}

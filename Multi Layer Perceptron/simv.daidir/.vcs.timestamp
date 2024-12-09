@@ -1,5 +1,5 @@
 0
-34
+36
 +itf+/opt/synopsys/vcs/U-2023.03-SP1/linux64/lib/vcsdp_lite.tab
 +vcsd1
 +vpi
@@ -25,9 +25,11 @@
 -picarchive
 -sverilog
 /opt/synopsys/vcs/U-2023.03-SP1/linux64/bin/vcs1
+MLP.sv
+MLP_tb.v
 DotProduct.sv
 MultAccumulate.v
-DotProduct_tb.v
+denselayer.sv
 FPU_IP/FPU.v
 FPU_IP/post_norm.v
 FPU_IP/pre_norm_fmul.v
@@ -36,11 +38,11 @@ FPU_IP/primitives.v
 FPU_IP/except.v
 59
 which_declare=
-XDG_SESSION_ID=808
+XDG_SESSION_ID=1074
 XDG_RUNTIME_DIR=/run/user/2137335896
 XDG_DATA_DIRS=/home/users14/ja425322/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share:/var/lib/snapd/desktop
-VSCODE_IPC_HOOK_CLI=/run/user/2137335896/vscode-ipc-fb29e359-83f3-41b0-b893-b55766fabfc7.sock
-VSCODE_GIT_IPC_HANDLE=/run/user/2137335896/vscode-git-fb362b8ca8.sock
+VSCODE_IPC_HOOK_CLI=/run/user/2137335896/vscode-ipc-4d1a8c23-3934-4ef4-bb8e-0e326c99799c.sock
+VSCODE_GIT_IPC_HANDLE=/run/user/2137335896/vscode-git-9b50d73a93.sock
 VSCODE_GIT_ASKPASS_NODE=/home/users14/ja425322/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/node
 VSCODE_GIT_ASKPASS_MAIN=/home/users14/ja425322/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/extensions/git/dist/askpass-main.js
 VSCODE_GIT_ASKPASS_EXTRA_ARGS=
@@ -63,8 +65,8 @@ SYNOPSYS=/opt/synopsys
 STROOT=/opt/synopsys/icc/U-2022.12-SP5
 SSL_CERT_FILE=/etc/pki/ca-trust/extracted/pem/tls-ca-bundle.pem
 SSL_CERT_DIR=/etc/pki/tls/certs
-SSH_CONNECTION=172.24.208.33 51988 10.209.13.130 22
-SSH_CLIENT=172.24.208.33 51988 22
+SSH_CONNECTION=172.24.208.33 56905 10.209.13.130 22
+SSH_CLIENT=172.24.208.33 56905 22
 SSH_ASKPASS=/usr/libexec/openssh/gnome-ssh-askpass
 SNPS_VCS_CLANG_PATH=/opt/synopsys/vcs/U-2023.03-SP1/linux64/clang
 SNPS_INTERNAL_VCS_LINUX_OS=linux
@@ -96,21 +98,23 @@ A__z="*SHLVL
 ASSURAHOME=/opt/cadence/installs/ASSURA41
 0
 0
-10
+12
 1733645056 FPU_IP/except.v
 1733645144 FPU_IP/primitives.v
 1733645111 FPU_IP/pre_norm.v
 1733645130 FPU_IP/pre_norm_fmul.v
 1733645412 FPU_IP/post_norm.v
 1733645275 FPU_IP/FPU.v
-1733656351 DotProduct_tb.v
+1733726765 denselayer.sv
 1733652125 MultAccumulate.v
 1733656289 DotProduct.sv
+1733727536 MLP_tb.v
+1733727031 MLP.sv
 1685590081 /opt/synopsys/vcs/U-2023.03-SP1/linux64/lib/vcsdp_lite.tab
 4
 1685591679 /opt/synopsys/vcs/U-2023.03-SP1/linux64/lib/libvirsim.so
 1685590824 /opt/synopsys/vcs/U-2023.03-SP1/linux64/lib/liberrorinf.so
 1685590775 /opt/synopsys/vcs/U-2023.03-SP1/linux64/lib/libsnpsmalloc.so
 1685590823 /opt/synopsys/vcs/U-2023.03-SP1/linux64/lib/libvfs.so
-1733656356 simv.daidir
+1733727543 simv.daidir
 -1 partitionlib

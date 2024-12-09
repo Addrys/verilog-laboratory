@@ -1,0 +1,208 @@
+# Preference setting overrides
+gui_create_pref_key -category {Globals} -key {load_detail_for_funcov} -value_type {bool} -value {false}
+gui_create_pref_category -category {schem_obj_name}
+gui_create_pref_key -category {schem_obj_name} -key {show_cell_and_pin_with_symbol_name} -value_type {bool} -value {false}
+gui_create_pref_key -category {schem_pin_hc} -key {textExtFont} -value_type {string} -value {Helvetica,10,-1,5,50,0,0,0,0,0}
+
+# State setting overrides
+gui_state_default_create -off -ini
+gui_set_state_value -category Globals -key recent_databases -value {{gui_open_db -file /home/users14/ja425322/526L/MLP/vcdplus.vpd -design V1} {gui_open_db -file /home/users14/ja425322/526L/MLP/vcdplus.vpd -design V2} {gui_open_db -file /home/users14/ja425322/526L/Lab9/vcdplus.vpd -design V1} {gui_open_db -file /home/users14/ja425322/526L/Lab8/vcdplus.vpd -design V1} {gui_open_db -file /home/users14/ja425322/526L/Lab8/vcdplus.vpd -design V2}}
+gui_set_state_value -category Layout -key child_console_size_x -value 1703
+gui_set_state_value -category Layout -key child_console_size_y -value 157
+gui_set_state_value -category Layout -key child_data_coltype -value 117
+gui_set_state_value -category Layout -key child_data_colvalue -value 119
+gui_set_state_value -category Layout -key child_data_colvariable -value 164
+gui_set_state_value -category Layout -key child_data_size_x -value 405
+gui_set_state_value -category Layout -key child_data_size_y -value 653
+gui_set_state_value -category Layout -key child_driver_size_x -value 1432
+gui_set_state_value -category Layout -key child_driver_size_y -value 179
+gui_set_state_value -category Layout -key child_hier_col3 -value {-1}
+gui_set_state_value -category Layout -key child_hier_colpd -value 0
+gui_set_state_value -category Layout -key child_hier_size_x -value 149
+gui_set_state_value -category Layout -key child_hier_size_y -value 653
+gui_set_state_value -category Layout -key child_hier_sort_order -value 1
+gui_set_state_value -category Layout -key child_list_down -value 203
+gui_set_state_value -category Layout -key child_list_right -value 444
+gui_set_state_value -category Layout -key child_memory_docknewline -value false
+gui_set_state_value -category Layout -key child_memory_pos_x -value {-2}
+gui_set_state_value -category Layout -key child_memory_pos_y -value {-15}
+gui_set_state_value -category Layout -key child_memory_size_x -value 1361
+gui_set_state_value -category Layout -key child_memory_size_y -value 767
+gui_set_state_value -category Layout -key child_schematic_docknewline -value false
+gui_set_state_value -category Layout -key child_schematic_pos_x -value {-2}
+gui_set_state_value -category Layout -key child_schematic_pos_y -value {-15}
+gui_set_state_value -category Layout -key child_schematic_size_x -value 1192
+gui_set_state_value -category Layout -key child_schematic_size_y -value 509
+gui_set_state_value -category Layout -key child_source_docknewline -value false
+gui_set_state_value -category Layout -key child_source_pos_x -value {-2}
+gui_set_state_value -category Layout -key child_source_pos_y -value {-15}
+gui_set_state_value -category Layout -key child_source_size_x -value 1152
+gui_set_state_value -category Layout -key child_source_size_y -value 648
+gui_set_state_value -category Layout -key child_wave_colname -value 222
+gui_set_state_value -category Layout -key child_wave_colvalue -value 222
+gui_set_state_value -category Layout -key child_wave_left -value 448
+gui_set_state_value -category Layout -key child_wave_right -value 1093
+gui_set_state_value -category Layout -key main_pos_x -value 2477
+gui_set_state_value -category Layout -key main_pos_y -value 157
+gui_set_state_value -category Layout -key main_size_x -value 4180
+gui_set_state_value -category Layout -key main_size_y -value 1042
+gui_set_state_value -category Layout -key stand_list_child_docknewline -value false
+gui_set_state_value -category Layout -key stand_list_child_pos_x -value {-2}
+gui_set_state_value -category Layout -key stand_list_child_pos_y -value {-15}
+gui_set_state_value -category Layout -key stand_list_child_size_x -value 604
+gui_set_state_value -category Layout -key stand_list_child_size_y -value 348
+gui_set_state_value -category Layout -key stand_list_top_pos_x -value 3376
+gui_set_state_value -category Layout -key stand_list_top_pos_y -value 245
+gui_set_state_value -category Layout -key stand_list_top_size_x -value 3975
+gui_set_state_value -category Layout -key stand_list_top_size_y -value 744
+gui_set_state_value -category Layout -key stand_memory_child_docknewline -value false
+gui_set_state_value -category Layout -key stand_memory_child_pos_x -value {-2}
+gui_set_state_value -category Layout -key stand_memory_child_pos_y -value {-15}
+gui_set_state_value -category Layout -key stand_memory_child_size_x -value 1360
+gui_set_state_value -category Layout -key stand_memory_child_size_y -value 767
+gui_set_state_value -category Layout -key stand_wave_child_docknewline -value false
+gui_set_state_value -category Layout -key stand_wave_child_pos_x -value {-2}
+gui_set_state_value -category Layout -key stand_wave_child_pos_y -value {-15}
+gui_set_state_value -category Layout -key stand_wave_child_size_x -value 1551
+gui_set_state_value -category Layout -key stand_wave_child_size_y -value 681
+gui_set_state_value -category Layout -key stand_wave_top_pos_x -value 93
+gui_set_state_value -category Layout -key stand_wave_top_pos_y -value 105
+gui_set_state_value -category Layout -key stand_wave_top_size_x -value 1639
+gui_set_state_value -category Layout -key stand_wave_top_size_y -value 890
+gui_create_state_key -category FindDialog -key m_pMatchCase -value_type bool -value false
+gui_create_state_key -category FindDialog -key m_pMatchWord -value_type bool -value false
+gui_create_state_key -category FindDialog -key m_pUseCombo -value_type string -value {}
+gui_create_state_key -category FindDialog -key m_pWrapAround -value_type bool -value true
+gui_state_default_create -off
+
+# Begin command logging
+gui_open_db -file /home/users14/ja425322/526L/MLP/vcdplus.vpd -design V1
+gui_list_select -id Hier.1 -current_item_name dense_tb -current_item_type Scope  -selected  { dense_tb   }
+gui_list_expand -id  Hier.1   dense_tb
+gui_list_select -id Hier.1 -current_item_name dense_tb.UUT -current_item_type Scope  -selected  { dense_tb.UUT   }
+gui_list_select -id Data.1 -selected  { {dense_tb.UUT.inputs[0:9][31:0]}   }
+gui_list_select -id Data.1 -selected  { {dense_tb.UUT.inputs[0:9][31:0]}  dense_tb.UUT.reset   }
+gui_list_select -id Data.1 -selected  { {dense_tb.UUT.inputs[0:9][31:0]}  dense_tb.UUT.reset  {dense_tb.UUT.dotResult[31:0]}   }
+gui_list_select -id Data.1 -selected  { {dense_tb.UUT.inputs[0:9][31:0]}  dense_tb.UUT.reset   }
+gui_list_select -id Data.1 -selected  { {dense_tb.UUT.inputs[0:9][31:0]}  dense_tb.UUT.reset  dense_tb.UUT.CLK   }
+gui_list_select -id Data.1 -selected  { {dense_tb.UUT.inputs[0:9][31:0]}  dense_tb.UUT.reset  dense_tb.UUT.CLK  {dense_tb.UUT.dotResult[31:0]}   }
+gui_list_select -id Data.1 -selected  { {dense_tb.UUT.inputs[0:9][31:0]}  dense_tb.UUT.reset  dense_tb.UUT.CLK  {dense_tb.UUT.dotResult[31:0]}  dense_tb.UUT.endFlag   }
+gui_list_select -id Data.1 -selected  { {dense_tb.UUT.inputs[0:9][31:0]}  dense_tb.UUT.reset  dense_tb.UUT.CLK  {dense_tb.UUT.dotResult[31:0]}  dense_tb.UUT.endFlag  dense_tb.UUT.myReset   }
+gui_list_select -id Data.1 -selected  { {dense_tb.UUT.inputs[0:9][31:0]}  dense_tb.UUT.reset  dense_tb.UUT.CLK  {dense_tb.UUT.dotResult[31:0]}  dense_tb.UUT.endFlag  dense_tb.UUT.myReset  {dense_tb.UUT.neuron[31:0]}   }
+gui_list_select -id Data.1 -selected  { {dense_tb.UUT.inputs[0:9][31:0]}  dense_tb.UUT.reset  dense_tb.UUT.CLK  {dense_tb.UUT.dotResult[31:0]}  dense_tb.UUT.endFlag  dense_tb.UUT.myReset  {dense_tb.UUT.neuron[31:0]}  {dense_tb.UUT.start_weights[31:0]}   }
+gui_list_select -id Data.1 -selected  { {dense_tb.UUT.inputs[0:9][31:0]}  dense_tb.UUT.reset  dense_tb.UUT.CLK  {dense_tb.UUT.dotResult[31:0]}  dense_tb.UUT.endFlag  dense_tb.UUT.myReset  {dense_tb.UUT.neuron[31:0]}  {dense_tb.UUT.start_weights[31:0]}  {dense_tb.UUT.end_weights[31:0]}   }
+gui_list_select -id Data.1 -selected  { {dense_tb.UUT.inputs[0:9][31:0]}  dense_tb.UUT.reset  dense_tb.UUT.CLK  {dense_tb.UUT.dotResult[31:0]}  dense_tb.UUT.endFlag  dense_tb.UUT.myReset  {dense_tb.UUT.neuron[31:0]}  {dense_tb.UUT.start_weights[31:0]}  {dense_tb.UUT.end_weights[31:0]}  {dense_tb.UUT.i[31:0]}   }
+gui_list_select -id Data.1 { {dense_tb.UUT.weights[0:39][31:0]}   }
+gui_list_select -id Data.1 { {dense_tb.UUT.biases[0:3][31:0]}   }
+gui_list_select -id Data.1 { {dense_tb.UUT.outputs[0:3][31:0]}   }
+gui_list_show_data -select -id  Data.1   {dense_tb.UUT.inputs[0:9][31:0]}
+gui_list_select -id Data.1 -selected  { {dense_tb.UUT.inputs[0:9][31:0]}  {dense_tb.UUT.WeightsVector[0:9][31:0]}   }
+gui_list_select -id Data.1 -selected  { {dense_tb.UUT.inputs[0:9][31:0]}  {dense_tb.UUT.WeightsVector[0:9][31:0]}  {dense_tb.UUT.outputs[0:3][31:0]}   }
+gui_list_select -id Data.1 -selected  { {dense_tb.UUT.inputs[0:9][31:0]}  {dense_tb.UUT.WeightsVector[0:9][31:0]}  {dense_tb.UUT.outputs[0:3][31:0]}  {dense_tb.UUT.biases[0:3][31:0]}   }
+gui_list_select -id Data.1 -selected  { {dense_tb.UUT.inputs[0:9][31:0]}  {dense_tb.UUT.WeightsVector[0:9][31:0]}  {dense_tb.UUT.outputs[0:3][31:0]}  {dense_tb.UUT.biases[0:3][31:0]}  {dense_tb.UUT.weights[0:39][31:0]}   }
+gui_list_select -id Data.1 -selected  { {dense_tb.UUT.inputs[0:9][31:0]}  {dense_tb.UUT.WeightsVector[0:9][31:0]}  {dense_tb.UUT.outputs[0:3][31:0]}  {dense_tb.UUT.biases[0:3][31:0]}  {dense_tb.UUT.weights[0:39][31:0]}  {dense_tb.UUT.i[31:0]}   }
+gui_list_select -id Data.1 -selected  { {dense_tb.UUT.inputs[0:9][31:0]}  {dense_tb.UUT.WeightsVector[0:9][31:0]}  {dense_tb.UUT.outputs[0:3][31:0]}  {dense_tb.UUT.biases[0:3][31:0]}  {dense_tb.UUT.weights[0:39][31:0]}  {dense_tb.UUT.i[31:0]}  {dense_tb.UUT.end_weights[31:0]}   }
+gui_list_select -id Data.1 -selected  { {dense_tb.UUT.inputs[0:9][31:0]}  {dense_tb.UUT.WeightsVector[0:9][31:0]}  {dense_tb.UUT.outputs[0:3][31:0]}  {dense_tb.UUT.biases[0:3][31:0]}  {dense_tb.UUT.weights[0:39][31:0]}  {dense_tb.UUT.i[31:0]}  {dense_tb.UUT.end_weights[31:0]}  {dense_tb.UUT.start_weights[31:0]}   }
+gui_list_select -id Data.1 -selected  { {dense_tb.UUT.inputs[0:9][31:0]}  {dense_tb.UUT.WeightsVector[0:9][31:0]}  {dense_tb.UUT.outputs[0:3][31:0]}  {dense_tb.UUT.biases[0:3][31:0]}  {dense_tb.UUT.weights[0:39][31:0]}  {dense_tb.UUT.i[31:0]}  {dense_tb.UUT.end_weights[31:0]}  {dense_tb.UUT.start_weights[31:0]}  {dense_tb.UUT.neuron[31:0]}   }
+gui_list_select -id Data.1 -selected  { {dense_tb.UUT.inputs[0:9][31:0]}  {dense_tb.UUT.WeightsVector[0:9][31:0]}  {dense_tb.UUT.outputs[0:3][31:0]}  {dense_tb.UUT.biases[0:3][31:0]}  {dense_tb.UUT.weights[0:39][31:0]}  {dense_tb.UUT.i[31:0]}  {dense_tb.UUT.end_weights[31:0]}  {dense_tb.UUT.start_weights[31:0]}  {dense_tb.UUT.neuron[31:0]}  dense_tb.UUT.myReset   }
+gui_list_select -id Data.1 { dense_tb.UUT.endFlag   }
+gui_list_select -id Data.1 { {dense_tb.UUT.dotResult[31:0]}   }
+gui_list_select -id Data.1 { dense_tb.UUT.CLK   }
+gui_list_select -id Data.1 { dense_tb.UUT.reset   }
+gui_open_window Wave
+gui_list_add -id Wave.1 -from Data.1 { {dense_tb.UUT.inputs[0:9][31:0]} dense_tb.UUT.reset dense_tb.UUT.CLK {dense_tb.UUT.dotResult[31:0]} dense_tb.UUT.endFlag dense_tb.UUT.myReset {dense_tb.UUT.neuron[31:0]} {dense_tb.UUT.start_weights[31:0]} {dense_tb.UUT.end_weights[31:0]} {dense_tb.UUT.i[31:0]} {dense_tb.UUT.weights[0:39][31:0]} {dense_tb.UUT.biases[0:3][31:0]} {dense_tb.UUT.outputs[0:3][31:0]} {dense_tb.UUT.WeightsVector[0:9][31:0]} } -insertionbar
+gui_zoom -window Wave.1 -full
+gui_marker_move -id  Wave.1 C1 14038
+gui_wv_zoom_timerange -id  Wave.1 21481 23648
+gui_marker_move -id  Wave.1 C1 22424
+gui_get_drivers -id Wave.1 -signal {dense_tb.UUT.outputs[0:3][31:0]}
+gui_marker_move -id  Wave.1 C1 22214
+gui_marker_select -id  Wave.1 { C1 }
+gui_save_session -reload -default_file
+gui_set_pref_value -category {Globals} -key {use_mhpi_lookup} -value {false}
+gui_set_pref_value -category {Globals} -key {use_mhpi_lookup} -value {true}
+gui_zoom -window Wave.1 -full
+gui_marker_move -id  Wave.1 C1 11023
+gui_marker_move -id  Wave.1 C1 26757
+gui_marker_move -id  Wave.1 C1 52667
+gui_marker_move -id  Wave.1 C1 72452
+gui_marker_move -id  Wave.1 C1 90259
+gui_marker_move -id  Wave.1 C1 9610
+gui_marker_move -id  Wave.1 C1 10552
+gui_marker_move -id  Wave.1 C1 33635
+gui_marker_move -id  Wave.1 C1 63973
+gui_marker_move -id  Wave.1 C1 57849
+gui_get_drivers -id Wave.1 -signal {dense_tb.UUT.end_weights[31:0]}
+gui_save_session -reload -default_file
+gui_set_pref_value -category {Globals} -key {use_mhpi_lookup} -value {false}
+gui_set_pref_value -category {Globals} -key {use_mhpi_lookup} -value {true}
+gui_zoom -window Wave.1 -full
+gui_list_select -id Wave.1 -selected  { {dense_tb.UUT.dotResult[31:0]}   }
+gui_wv_zoom_timerange -id  Wave.1 21199 23554
+gui_marker_move -id  Wave.1 C1 21652
+gui_list_expand -id  Wave.1   {dense_tb.UUT.outputs[0:3][31:0]}
+gui_list_collapse -id  Wave.1   {dense_tb.UUT.outputs[0:3][31:0]}
+gui_zoom -window Wave.1 -full
+gui_marker_move -id  Wave.1 C1 64850
+gui_get_drivers -id Wave.1 -signal {dense_tb.UUT.neuron[31:0]}
+gui_save_session -reload -default_file
+gui_set_pref_value -category {Globals} -key {use_mhpi_lookup} -value {false}
+gui_set_pref_value -category {Globals} -key {use_mhpi_lookup} -value {true}
+gui_zoom -window Wave.1 -full
+gui_wv_zoom_timerange -id  Wave.1 21858 25062
+gui_zoom -window Wave.1 -full
+gui_wv_zoom_timerange -id  Wave.1 44470 46920
+gui_zoom -window Wave.1 -full
+gui_marker_move -id  Wave.1 C1 68872
+gui_marker_move -id  Wave.1 C1 67459
+gui_wv_zoom_timerange -id  Wave.1 0 25533
+gui_marker_move -id  Wave.1 C1 22150
+gui_list_select -id Wave.1 -selected  { dense_tb.UUT.endFlag   }
+gui_wv_scrollright -id  Wave.1  line
+gui_wv_scrollright -id  Wave.1  line
+gui_wv_scrollright -id  Wave.1  line
+gui_wv_scrollright -id  Wave.1  line
+gui_wv_scrollright -id  Wave.1  line
+gui_wv_scrollright -id  Wave.1  line
+gui_wv_scrollright -id  Wave.1  line
+gui_wv_scrollright -id  Wave.1  line
+gui_wv_scrollright -id  Wave.1  line
+gui_wv_scroll_hslidermove -id  Wave.1 0
+gui_close_window -window TopLevel.2
+gui_list_select -id Data.1 { {dense_tb.UUT.AddResult[31:0]}   }
+gui_list_select -id Data.1 { {dense_tb.UUT.neuron_bias[31:0]}   }
+gui_list_select -id Data.1 { {dense_tb.UUT.add_cycles[31:0]}   }
+gui_list_select -id Data.1 { {dense_tb.UUT.next_state[1:0]}   }
+gui_list_select -id Data.1 { {dense_tb.UUT.next_state[1:0]}   }
+gui_list_select -id Data.1 { {dense_tb.UUT.next_state[1:0]}   }
+gui_list_select -id Data.1 { {dense_tb.UUT.state[1:0]}   }
+gui_open_window Wave
+gui_list_add -id Wave.1 -from Data.1 { {dense_tb.UUT.inputs[0:9][31:0]} dense_tb.UUT.reset dense_tb.UUT.CLK {dense_tb.UUT.AddResult[31:0]} {dense_tb.UUT.neuron_bias[31:0]} {dense_tb.UUT.dotResult[31:0]} dense_tb.UUT.endFlag dense_tb.UUT.myReset {dense_tb.UUT.add_cycles[31:0]} {dense_tb.UUT.neuron[31:0]} {dense_tb.UUT.start_weights[31:0]} {dense_tb.UUT.end_weights[31:0]} {dense_tb.UUT.i[31:0]} {dense_tb.UUT.state[1:0]} {dense_tb.UUT.next_state[1:0]} {dense_tb.UUT.weights[0:39][31:0]} {dense_tb.UUT.biases[0:3][31:0]} {dense_tb.UUT.outputs[0:3][31:0]} {dense_tb.UUT.WeightsVector[0:9][31:0]} } -insertionbar
+gui_zoom -window Wave.1 -full
+gui_marker_move -id  Wave.1 C1 10373
+gui_list_select -id Wave.1 -selected  { {dense_tb.UUT.AddResult[31:0]}   }
+gui_list_set_selected_property -id Wave.1 -radix Hex2Float_BigEndian
+gui_list_select -id Wave.1 -selected  { {dense_tb.UUT.neuron_bias[31:0]}   }
+gui_list_set_selected_property -id Wave.1 -radix Hex2Float_BigEndian
+gui_list_select -id Wave.1 -selected  { {dense_tb.UUT.state[1:0]}   }
+gui_wv_zoom_timerange -id  Wave.1 0 27348
+gui_list_select -id Wave.1 -selected  { {dense_tb.UUT.AddResult[31:0]}   }
+gui_list_select -id Wave.1 -selected  { {dense_tb.UUT.dotResult[31:0]}   }
+gui_list_set_selected_property -id Wave.1 -radix Hex2Float_BigEndian
+gui_list_set_selected_property -id Wave.1 -draw_style vlgvector1
+gui_list_select -id Wave.1 -selected  { {dense_tb.UUT.start_weights[31:0]}   }
+gui_list_select -id Wave.1 -selected  { {dense_tb.UUT.end_weights[31:0]}   }
+gui_list_select -id Wave.1 -selected  { {dense_tb.UUT.neuron_bias[31:0]}   }
+gui_zoom -window Wave.1 -full
+gui_marker_move -id  Wave.1 C1 61298
+gui_get_drivers -id Wave.1 -signal dense_tb.UUT.myReset
+gui_save_session -reload -default_file
+gui_set_pref_value -category {Globals} -key {use_mhpi_lookup} -value {false}
+gui_set_pref_value -category {Globals} -key {use_mhpi_lookup} -value {true}
+gui_list_select -id Wave.1 -selected  { {dense_tb.UUT.state[1:0]}   }
+gui_marker_move -id  Wave.1 C1 6790
+gui_marker_move -id  Wave.1 C1 23850
+gui_marker_move -id  Wave.1 C1 23950
+gui_marker_move -id  Wave.1 C1 26405
+gui_wv_zoom_timerange -id  Wave.1 0 26877
+gui_wv_zoom_timerange -id  Wave.1 0 28056

@@ -1,0 +1,9 @@
+{"vcs1":{"timestamp_begin":1733710808.029101156, "rt":1.71, "ut":0.50, "st":0.07}}
+{"vcselab":{"timestamp_begin":1733710809.798536858, "rt":0.77, "ut":0.27, "st":0.04}}
+{"link":{"timestamp_begin":1733710810.628460230, "rt":1.03, "ut":0.11, "st":0.05}}
+{"SNPS_VCS_INTERNAL_ROOT_START_TIME": 1733710807.657030781}
+{"VCS_COMP_START_TIME": 1733710807.657030781}
+{"VCS_COMP_END_TIME": 1733710812.267614606}
+{"VCS_USER_OPTIONS": "-sverilog -debug_access+all MLP.sv MLP_tb.v DotProduct.sv MultAccumulate.v denselayer.sv FPU_IP/FPU.v FPU_IP/post_norm.v FPU_IP/pre_norm_fmul.v FPU_IP/pre_norm.v FPU_IP/primitives.v FPU_IP/except.v"}
+{"vcs1": {"peak_mem": 379116}}
+{"vcselab": {"peak_mem": 254272}}

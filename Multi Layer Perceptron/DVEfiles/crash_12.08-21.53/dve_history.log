@@ -1,0 +1,488 @@
+# Preference setting overrides
+gui_create_pref_key -category {Globals} -key {load_detail_for_funcov} -value_type {bool} -value {false}
+gui_create_pref_category -category {schem_obj_name}
+gui_create_pref_key -category {schem_obj_name} -key {show_cell_and_pin_with_symbol_name} -value_type {bool} -value {false}
+gui_create_pref_key -category {schem_pin_hc} -key {textExtFont} -value_type {string} -value {Helvetica,10,-1,5,50,0,0,0,0,0}
+
+# State setting overrides
+gui_state_default_create -off -ini
+gui_set_state_value -category Globals -key recent_databases -value {{gui_open_db -file /home/users14/ja425322/526L/MLP/vcdplus.vpd -design V1} {gui_open_db -file /home/users14/ja425322/526L/MLP/vcdplus.vpd -design V2} {gui_open_db -file /home/users14/ja425322/526L/Lab9/vcdplus.vpd -design V1} {gui_open_db -file /home/users14/ja425322/526L/Lab8/vcdplus.vpd -design V1} {gui_open_db -file /home/users14/ja425322/526L/Lab8/vcdplus.vpd -design V2}}
+gui_set_state_value -category Layout -key child_console_size_x -value 1699
+gui_set_state_value -category Layout -key child_console_size_y -value 153
+gui_set_state_value -category Layout -key child_data_coltype -value 117
+gui_set_state_value -category Layout -key child_data_colvalue -value 119
+gui_set_state_value -category Layout -key child_data_colvariable -value 164
+gui_set_state_value -category Layout -key child_data_size_x -value 401
+gui_set_state_value -category Layout -key child_data_size_y -value 653
+gui_set_state_value -category Layout -key child_driver_size_x -value 1432
+gui_set_state_value -category Layout -key child_driver_size_y -value 179
+gui_set_state_value -category Layout -key child_hier_col3 -value {-1}
+gui_set_state_value -category Layout -key child_hier_colpd -value 0
+gui_set_state_value -category Layout -key child_hier_size_x -value 145
+gui_set_state_value -category Layout -key child_hier_size_y -value 653
+gui_set_state_value -category Layout -key child_hier_sort_order -value 1
+gui_set_state_value -category Layout -key child_list_down -value 203
+gui_set_state_value -category Layout -key child_list_right -value 444
+gui_set_state_value -category Layout -key child_memory_docknewline -value false
+gui_set_state_value -category Layout -key child_memory_pos_x -value {-2}
+gui_set_state_value -category Layout -key child_memory_pos_y -value {-15}
+gui_set_state_value -category Layout -key child_memory_size_x -value 1361
+gui_set_state_value -category Layout -key child_memory_size_y -value 767
+gui_set_state_value -category Layout -key child_schematic_docknewline -value false
+gui_set_state_value -category Layout -key child_schematic_pos_x -value {-2}
+gui_set_state_value -category Layout -key child_schematic_pos_y -value {-15}
+gui_set_state_value -category Layout -key child_schematic_size_x -value 1192
+gui_set_state_value -category Layout -key child_schematic_size_y -value 509
+gui_set_state_value -category Layout -key child_source_docknewline -value false
+gui_set_state_value -category Layout -key child_source_pos_x -value {-2}
+gui_set_state_value -category Layout -key child_source_pos_y -value {-15}
+gui_set_state_value -category Layout -key child_source_size_x -value 1156
+gui_set_state_value -category Layout -key child_source_size_y -value 648
+gui_set_state_value -category Layout -key child_wave_colname -value 220
+gui_set_state_value -category Layout -key child_wave_colvalue -value 220
+gui_set_state_value -category Layout -key child_wave_left -value 444
+gui_set_state_value -category Layout -key child_wave_right -value 1082
+gui_set_state_value -category Layout -key main_pos_x -value 8
+gui_set_state_value -category Layout -key main_pos_y -value 68
+gui_set_state_value -category Layout -key main_size_x -value 1707
+gui_set_state_value -category Layout -key main_size_y -value 949
+gui_set_state_value -category Layout -key stand_list_child_docknewline -value false
+gui_set_state_value -category Layout -key stand_list_child_pos_x -value {-2}
+gui_set_state_value -category Layout -key stand_list_child_pos_y -value {-15}
+gui_set_state_value -category Layout -key stand_list_child_size_x -value 604
+gui_set_state_value -category Layout -key stand_list_child_size_y -value 348
+gui_set_state_value -category Layout -key stand_list_top_pos_x -value 3376
+gui_set_state_value -category Layout -key stand_list_top_pos_y -value 245
+gui_set_state_value -category Layout -key stand_list_top_size_x -value 3975
+gui_set_state_value -category Layout -key stand_list_top_size_y -value 744
+gui_set_state_value -category Layout -key stand_memory_child_docknewline -value false
+gui_set_state_value -category Layout -key stand_memory_child_pos_x -value {-2}
+gui_set_state_value -category Layout -key stand_memory_child_pos_y -value {-15}
+gui_set_state_value -category Layout -key stand_memory_child_size_x -value 1360
+gui_set_state_value -category Layout -key stand_memory_child_size_y -value 767
+gui_set_state_value -category Layout -key stand_wave_child_docknewline -value false
+gui_set_state_value -category Layout -key stand_wave_child_pos_x -value {-2}
+gui_set_state_value -category Layout -key stand_wave_child_pos_y -value {-15}
+gui_set_state_value -category Layout -key stand_wave_child_size_x -value 1536
+gui_set_state_value -category Layout -key stand_wave_child_size_y -value 666
+gui_set_state_value -category Layout -key stand_wave_top_pos_x -value 101
+gui_set_state_value -category Layout -key stand_wave_top_pos_y -value 154
+gui_set_state_value -category Layout -key stand_wave_top_size_x -value 1632
+gui_set_state_value -category Layout -key stand_wave_top_size_y -value 924
+gui_create_state_key -category FindDialog -key m_pMatchCase -value_type bool -value false
+gui_create_state_key -category FindDialog -key m_pMatchWord -value_type bool -value false
+gui_create_state_key -category FindDialog -key m_pUseCombo -value_type string -value {}
+gui_create_state_key -category FindDialog -key m_pWrapAround -value_type bool -value true
+gui_state_default_create -off
+
+# Begin command logging
+gui_open_db -file /home/users14/ja425322/526L/MLP/vcdplus.vpd -design V1
+gui_list_expand -id  Hier.1   MLP_tb
+gui_list_select -id Hier.1 -current_item_name delay1 -current_item_type Scope  -selected  {  }
+gui_list_select -id Hier.1 -current_item_name MLP_tb.UUT -current_item_type Scope  -selected  { MLP_tb.UUT   }
+gui_list_expand -id  Hier.1   MLP_tb.UUT
+gui_list_select -id Hier.1 -current_item_name MLP_tb.UUT.OutputLayer -current_item_type Scope  -selected  { MLP_tb.UUT.OutputLayer   }
+gui_list_select -id Data.1 -selected  { {MLP_tb.UUT.OutputLayer.inputs[0:3][31:0]}   }
+gui_list_select -id Data.1 -selected  { {MLP_tb.UUT.OutputLayer.inputs[0:3][31:0]}  MLP_tb.UUT.OutputLayer.reset   }
+gui_list_show_data -select -id  Data.1   {MLP_tb.UUT.OutputLayer.inputs[0:3][31:0]}
+gui_list_select -id Data.1 -selected  { {MLP_tb.UUT.OutputLayer.inputs[0:3][31:0]}  MLP_tb.UUT.OutputLayer.reset   }
+gui_list_select -id Data.1 -selected  { {MLP_tb.UUT.OutputLayer.inputs[0:3][31:0]}  MLP_tb.UUT.OutputLayer.reset  MLP_tb.UUT.OutputLayer.CLK   }
+gui_list_select -id Data.1 -selected  { {MLP_tb.UUT.OutputLayer.inputs[0:3][31:0]}  MLP_tb.UUT.OutputLayer.reset  MLP_tb.UUT.OutputLayer.CLK  {MLP_tb.UUT.OutputLayer.AddResult[31:0]}   }
+gui_list_select -id Data.1 -selected  { {MLP_tb.UUT.OutputLayer.inputs[0:3][31:0]}  MLP_tb.UUT.OutputLayer.reset  MLP_tb.UUT.OutputLayer.CLK  {MLP_tb.UUT.OutputLayer.AddResult[31:0]}  {MLP_tb.UUT.OutputLayer.neuron_bias[31:0]}   }
+gui_list_select -id Data.1 -selected  { {MLP_tb.UUT.OutputLayer.inputs[0:3][31:0]}  MLP_tb.UUT.OutputLayer.reset  MLP_tb.UUT.OutputLayer.CLK  {MLP_tb.UUT.OutputLayer.AddResult[31:0]}  {MLP_tb.UUT.OutputLayer.neuron_bias[31:0]}  {MLP_tb.UUT.OutputLayer.dotResult[31:0]}   }
+gui_list_select -id Data.1 -selected  { {MLP_tb.UUT.OutputLayer.inputs[0:3][31:0]}  MLP_tb.UUT.OutputLayer.reset  MLP_tb.UUT.OutputLayer.CLK  {MLP_tb.UUT.OutputLayer.AddResult[31:0]}  {MLP_tb.UUT.OutputLayer.neuron_bias[31:0]}  {MLP_tb.UUT.OutputLayer.dotResult[31:0]}  MLP_tb.UUT.OutputLayer.endFlag   }
+gui_list_select -id Data.1 -selected  { {MLP_tb.UUT.OutputLayer.inputs[0:3][31:0]}  MLP_tb.UUT.OutputLayer.reset  MLP_tb.UUT.OutputLayer.CLK  {MLP_tb.UUT.OutputLayer.AddResult[31:0]}  {MLP_tb.UUT.OutputLayer.neuron_bias[31:0]}  {MLP_tb.UUT.OutputLayer.dotResult[31:0]}  MLP_tb.UUT.OutputLayer.endFlag  MLP_tb.UUT.OutputLayer.myReset   }
+gui_list_select -id Data.1 -selected  { {MLP_tb.UUT.OutputLayer.inputs[0:3][31:0]}  MLP_tb.UUT.OutputLayer.reset  MLP_tb.UUT.OutputLayer.CLK  {MLP_tb.UUT.OutputLayer.AddResult[31:0]}  {MLP_tb.UUT.OutputLayer.neuron_bias[31:0]}  {MLP_tb.UUT.OutputLayer.dotResult[31:0]}  MLP_tb.UUT.OutputLayer.endFlag  MLP_tb.UUT.OutputLayer.myReset  {MLP_tb.UUT.OutputLayer.add_cycles[31:0]}   }
+gui_list_select -id Data.1 -selected  { {MLP_tb.UUT.OutputLayer.inputs[0:3][31:0]}  MLP_tb.UUT.OutputLayer.reset  MLP_tb.UUT.OutputLayer.CLK  {MLP_tb.UUT.OutputLayer.AddResult[31:0]}  {MLP_tb.UUT.OutputLayer.neuron_bias[31:0]}  {MLP_tb.UUT.OutputLayer.dotResult[31:0]}  MLP_tb.UUT.OutputLayer.endFlag  MLP_tb.UUT.OutputLayer.myReset  {MLP_tb.UUT.OutputLayer.add_cycles[31:0]}  {MLP_tb.UUT.OutputLayer.operand[31:0]}   }
+gui_list_select -id Data.1 { {MLP_tb.UUT.OutputLayer.neuron[31:0]}   }
+gui_list_select -id Data.1 { {MLP_tb.UUT.OutputLayer.start_weights[31:0]}   }
+gui_list_select -id Data.1 { {MLP_tb.UUT.OutputLayer.end_weights[31:0]}   }
+gui_list_select -id Data.1 { {MLP_tb.UUT.OutputLayer.i[31:0]}   }
+gui_list_select -id Data.1 { {MLP_tb.UUT.OutputLayer.state[1:0]}   }
+gui_list_select -id Data.1 { {MLP_tb.UUT.OutputLayer.weights[0:7][31:0]}   }
+gui_list_select -id Data.1 { {MLP_tb.UUT.OutputLayer.next_state[1:0]}   }
+gui_list_select -id Data.1 { {MLP_tb.UUT.OutputLayer.biases[0:1][31:0]}   }
+gui_list_select -id Data.1 { {MLP_tb.UUT.OutputLayer.outputs[0:1][31:0]}   }
+gui_list_select -id Data.1 { {MLP_tb.UUT.OutputLayer.WeightsVector[0:3][31:0]}   }
+gui_list_select -id Data.1 { {MLP_tb.UUT.OutputLayer.N_NEURONS[31:0]}   }
+gui_list_select -id Data.1 { {MLP_tb.UUT.OutputLayer.N_INPUTS[31:0]}   }
+gui_list_select -id Data.1 { {MLP_tb.UUT.OutputLayer.N_WEIGHTS[31:0]}   }
+gui_list_select -id Data.1 { {MLP_tb.UUT.OutputLayer.ADD_CYLCES_NEEDED[31:0]}   }
+gui_list_select -id Data.1 { {MLP_tb.UUT.OutputLayer.START[1:0]}   }
+gui_open_window Wave
+gui_list_add -id Wave.1 -from Data.1 { {MLP_tb.UUT.OutputLayer.inputs[0:3][31:0]} MLP_tb.UUT.OutputLayer.reset MLP_tb.UUT.OutputLayer.CLK {MLP_tb.UUT.OutputLayer.AddResult[31:0]} {MLP_tb.UUT.OutputLayer.neuron_bias[31:0]} {MLP_tb.UUT.OutputLayer.dotResult[31:0]} MLP_tb.UUT.OutputLayer.endFlag MLP_tb.UUT.OutputLayer.myReset {MLP_tb.UUT.OutputLayer.add_cycles[31:0]} {MLP_tb.UUT.OutputLayer.operand[31:0]} {MLP_tb.UUT.OutputLayer.neuron[31:0]} {MLP_tb.UUT.OutputLayer.start_weights[31:0]} {MLP_tb.UUT.OutputLayer.end_weights[31:0]} {MLP_tb.UUT.OutputLayer.i[31:0]} {MLP_tb.UUT.OutputLayer.state[1:0]} {MLP_tb.UUT.OutputLayer.next_state[1:0]} {MLP_tb.UUT.OutputLayer.weights[0:7][31:0]} {MLP_tb.UUT.OutputLayer.biases[0:1][31:0]} {MLP_tb.UUT.OutputLayer.outputs[0:1][31:0]} {MLP_tb.UUT.OutputLayer.WeightsVector[0:3][31:0]} {MLP_tb.UUT.OutputLayer.N_NEURONS[31:0]} {MLP_tb.UUT.OutputLayer.N_INPUTS[31:0]} {MLP_tb.UUT.OutputLayer.N_WEIGHTS[31:0]} {MLP_tb.UUT.OutputLayer.ADD_CYLCES_NEEDED[31:0]} {MLP_tb.UUT.OutputLayer.START[1:0]} } -insertionbar
+gui_zoom -window Wave.1 -full
+gui_wv_zoom_timerange -id  Wave.1 0 55837548
+gui_wv_zoom_timerange -id  Wave.1 0 3259819
+gui_wv_zoom_timerange -id  Wave.1 0 472704
+gui_wv_scrollright -id  Wave.1  line
+gui_wv_scrollright -id  Wave.1  line
+gui_wv_scrollright -id  Wave.1  line
+gui_wv_scrollright -id  Wave.1  line
+gui_wv_scrollright -id  Wave.1  line
+gui_wv_scrollright -id  Wave.1  line
+gui_wv_scrollright -id  Wave.1  line
+gui_wv_scrollright -id  Wave.1  line
+gui_wv_scrollright -id  Wave.1  line
+gui_wv_scrollright -id  Wave.1  line
+gui_wv_scrollright -id  Wave.1  line
+gui_wv_scrollright -id  Wave.1  line
+gui_wv_scrollright -id  Wave.1  line
+gui_wv_scrollright -id  Wave.1  line
+gui_wv_scrollright -id  Wave.1  line
+gui_wv_scrollright -id  Wave.1  line
+gui_wv_scrollright -id  Wave.1  line
+gui_wv_scrollright -id  Wave.1  line
+gui_wv_scrollright -id  Wave.1  line
+gui_wv_scrollright -id  Wave.1  line
+gui_wv_scrollright -id  Wave.1  line
+gui_wv_scrollright -id  Wave.1  line
+gui_wv_scrollright -id  Wave.1  line
+gui_wv_scrollright -id  Wave.1  line
+gui_wv_scrollright -id  Wave.1  line
+gui_wv_scrollright -id  Wave.1  line
+gui_wv_scrollright -id  Wave.1  line
+gui_wv_scrollleft -id  Wave.1  line
+gui_wv_scrollleft -id  Wave.1  line
+gui_wv_scrollleft -id  Wave.1  line
+gui_wv_scrollleft -id  Wave.1  line
+gui_wv_scrollleft -id  Wave.1  line
+gui_wv_scrollleft -id  Wave.1  line
+gui_wv_scrollleft -id  Wave.1  line
+gui_wv_scrollleft -id  Wave.1  line
+gui_wv_scrollleft -id  Wave.1  line
+gui_wv_scrollleft -id  Wave.1  line
+gui_wv_scrollleft -id  Wave.1  line
+gui_wv_scrollleft -id  Wave.1  line
+gui_wv_scrollleft -id  Wave.1  line
+gui_wv_scrollleft -id  Wave.1  line
+gui_wv_scrollleft -id  Wave.1  line
+gui_wv_scrollleft -id  Wave.1  line
+gui_wv_scrollleft -id  Wave.1  line
+gui_wv_scrollleft -id  Wave.1  line
+gui_wv_scrollleft -id  Wave.1  line
+gui_wv_scrollleft -id  Wave.1  line
+gui_wv_scrollleft -id  Wave.1  line
+gui_wv_scrollleft -id  Wave.1  line
+gui_wv_scrollleft -id  Wave.1  line
+gui_wv_scrollleft -id  Wave.1  line
+gui_wv_scrollleft -id  Wave.1  line
+gui_wv_scrollleft -id  Wave.1  line
+gui_wv_scrollleft -id  Wave.1  line
+gui_wv_scrollleft -id  Wave.1  line
+gui_wv_scrollleft -id  Wave.1  line
+gui_wv_scrollleft -id  Wave.1  line
+gui_wv_scrollleft -id  Wave.1  line
+gui_wv_scrollleft -id  Wave.1  line
+gui_wv_scrollleft -id  Wave.1  line
+gui_wv_scrollleft -id  Wave.1  line
+gui_wv_scrollleft -id  Wave.1  line
+gui_wv_scrollleft -id  Wave.1  line
+gui_wv_scrollleft -id  Wave.1  line
+gui_wv_scrollright -id  Wave.1  line
+gui_wv_scrollright -id  Wave.1  line
+gui_wv_scrollright -id  Wave.1  line
+gui_wv_scrollright -id  Wave.1  line
+gui_wv_scrollright -id  Wave.1  line
+gui_wv_scrollright -id  Wave.1  line
+gui_wv_scrollright -id  Wave.1  line
+gui_wv_scrollright -id  Wave.1  line
+gui_wv_scrollright -id  Wave.1  line
+gui_wv_scrollright -id  Wave.1  line
+gui_wv_scrollright -id  Wave.1  line
+gui_wv_scrollright -id  Wave.1  line
+gui_wv_scrollright -id  Wave.1  line
+gui_wv_scrollright -id  Wave.1  line
+gui_wv_scrollright -id  Wave.1  line
+gui_wv_scrollright -id  Wave.1  line
+gui_wv_scrollright -id  Wave.1  line
+gui_wv_scrollright -id  Wave.1  line
+gui_wv_scrollright -id  Wave.1  line
+gui_wv_scrollright -id  Wave.1  line
+gui_wv_scrollright -id  Wave.1  line
+gui_wv_scrollright -id  Wave.1  line
+gui_wv_scrollright -id  Wave.1  line
+gui_wv_scrollright -id  Wave.1  line
+gui_wv_scrollright -id  Wave.1  line
+gui_wv_scrollright -id  Wave.1  line
+gui_wv_scrollright -id  Wave.1  line
+gui_wv_scrollright -id  Wave.1  line
+gui_wv_scrollright -id  Wave.1  line
+gui_wv_scrollright -id  Wave.1  line
+gui_wv_scrollright -id  Wave.1  line
+gui_wv_scrollright -id  Wave.1  line
+gui_wv_scrollright -id  Wave.1  line
+gui_wv_scroll_hslidermove -id  Wave.1 0
+gui_marker_move -id  Wave.1 C1 20450
+gui_list_select -id Wave.1 -selected  { MLP_tb.UUT.OutputLayer.endFlag   }
+gui_wv_zoom_timerange -id  Wave.1 3116 101484
+gui_wv_scroll_hslidermove -id  Wave.1 0
+gui_wv_scrollleft -id  Wave.1  line
+gui_wv_scrollleft -id  Wave.1  line
+gui_wv_scrollleft -id  Wave.1  line
+gui_wv_scrollleft -id  Wave.1  line
+gui_wv_scrollleft -id  Wave.1  line
+gui_wv_scrollleft -id  Wave.1  line
+gui_list_select -id Wave.1 -selected  { {MLP_tb.UUT.OutputLayer.neuron_bias[31:0]}   }
+gui_marker_move -id  Wave.1 C1 6576
+gui_close_window -window TopLevel.2
+gui_list_collapse -id  Hier.1   MLP_tb.UUT.OutputLayer
+gui_list_expand -id  Hier.1   MLP_tb.UUT.InputLayer
+gui_list_select -id Hier.1 -current_item_name MLP_tb.UUT.InputLayer -current_item_type Scope  -selected  { MLP_tb.UUT.InputLayer   }
+gui_list_select -id Data.1 -selected  { {MLP_tb.UUT.InputLayer.inputs[0:5][31:0]}   }
+gui_list_select -id Data.1 -selected  { {MLP_tb.UUT.InputLayer.inputs[0:5][31:0]}  MLP_tb.UUT.InputLayer.reset   }
+gui_list_select -id Data.1 -selected  { {MLP_tb.UUT.InputLayer.inputs[0:5][31:0]}  MLP_tb.UUT.InputLayer.reset  MLP_tb.UUT.InputLayer.CLK   }
+gui_list_select -id Data.1 -selected  { {MLP_tb.UUT.InputLayer.inputs[0:5][31:0]}  MLP_tb.UUT.InputLayer.reset  MLP_tb.UUT.InputLayer.CLK  {MLP_tb.UUT.InputLayer.AddResult[31:0]}   }
+gui_list_select -id Data.1 -selected  { {MLP_tb.UUT.InputLayer.inputs[0:5][31:0]}  MLP_tb.UUT.InputLayer.reset  MLP_tb.UUT.InputLayer.CLK  {MLP_tb.UUT.InputLayer.AddResult[31:0]}  {MLP_tb.UUT.InputLayer.neuron_bias[31:0]}   }
+gui_list_select -id Data.1 -selected  { {MLP_tb.UUT.InputLayer.inputs[0:5][31:0]}  MLP_tb.UUT.InputLayer.reset  MLP_tb.UUT.InputLayer.CLK  {MLP_tb.UUT.InputLayer.AddResult[31:0]}  {MLP_tb.UUT.InputLayer.neuron_bias[31:0]}  {MLP_tb.UUT.InputLayer.dotResult[31:0]}   }
+gui_list_select -id Data.1 -selected  { {MLP_tb.UUT.InputLayer.inputs[0:5][31:0]}  MLP_tb.UUT.InputLayer.reset  MLP_tb.UUT.InputLayer.CLK  {MLP_tb.UUT.InputLayer.AddResult[31:0]}  {MLP_tb.UUT.InputLayer.neuron_bias[31:0]}  {MLP_tb.UUT.InputLayer.dotResult[31:0]}  MLP_tb.UUT.InputLayer.endFlag   }
+gui_list_select -id Data.1 -selected  { {MLP_tb.UUT.InputLayer.inputs[0:5][31:0]}  MLP_tb.UUT.InputLayer.reset  MLP_tb.UUT.InputLayer.CLK  {MLP_tb.UUT.InputLayer.AddResult[31:0]}  {MLP_tb.UUT.InputLayer.neuron_bias[31:0]}  {MLP_tb.UUT.InputLayer.dotResult[31:0]}  MLP_tb.UUT.InputLayer.endFlag  MLP_tb.UUT.InputLayer.myReset   }
+gui_list_select -id Data.1 -selected  { {MLP_tb.UUT.InputLayer.inputs[0:5][31:0]}  MLP_tb.UUT.InputLayer.reset  MLP_tb.UUT.InputLayer.CLK  {MLP_tb.UUT.InputLayer.AddResult[31:0]}  {MLP_tb.UUT.InputLayer.neuron_bias[31:0]}  {MLP_tb.UUT.InputLayer.dotResult[31:0]}  MLP_tb.UUT.InputLayer.endFlag  MLP_tb.UUT.InputLayer.myReset  {MLP_tb.UUT.InputLayer.add_cycles[31:0]}   }
+gui_list_select -id Data.1 -selected  { {MLP_tb.UUT.InputLayer.inputs[0:5][31:0]}  MLP_tb.UUT.InputLayer.reset  MLP_tb.UUT.InputLayer.CLK  {MLP_tb.UUT.InputLayer.AddResult[31:0]}  {MLP_tb.UUT.InputLayer.neuron_bias[31:0]}  {MLP_tb.UUT.InputLayer.dotResult[31:0]}  MLP_tb.UUT.InputLayer.endFlag  MLP_tb.UUT.InputLayer.myReset  {MLP_tb.UUT.InputLayer.add_cycles[31:0]}  {MLP_tb.UUT.InputLayer.operand[31:0]}   }
+gui_list_select -id Data.1 { {MLP_tb.UUT.InputLayer.neuron[31:0]}   }
+gui_list_select -id Data.1 { {MLP_tb.UUT.InputLayer.start_weights[31:0]}   }
+gui_list_select -id Data.1 { {MLP_tb.UUT.InputLayer.i[31:0]}   }
+gui_list_select -id Data.1 { {MLP_tb.UUT.InputLayer.end_weights[31:0]}   }
+gui_list_select -id Data.1 { {MLP_tb.UUT.InputLayer.state[1:0]}   }
+gui_list_select -id Data.1 { {MLP_tb.UUT.InputLayer.next_state[1:0]}   }
+gui_list_select -id Data.1 { {MLP_tb.UUT.InputLayer.weights[0:23][31:0]}   }
+gui_list_select -id Data.1 { {MLP_tb.UUT.InputLayer.biases[0:3][31:0]}   }
+gui_list_select -id Data.1 { {MLP_tb.UUT.InputLayer.outputs[0:3][31:0]}   }
+gui_list_select -id Data.1 { {MLP_tb.UUT.InputLayer.WeightsVector[0:5][31:0]}   }
+gui_list_select -id Data.1 { {MLP_tb.UUT.InputLayer.N_INPUTS[31:0]}   }
+gui_list_select -id Data.1 { {MLP_tb.UUT.InputLayer.N_NEURONS[31:0]}   }
+gui_list_select -id Data.1 { {MLP_tb.UUT.InputLayer.N_WEIGHTS[31:0]}   }
+gui_open_window Wave
+gui_list_add -id Wave.1 -from Data.1 { {MLP_tb.UUT.InputLayer.inputs[0:5][31:0]} MLP_tb.UUT.InputLayer.reset MLP_tb.UUT.InputLayer.CLK {MLP_tb.UUT.InputLayer.AddResult[31:0]} {MLP_tb.UUT.InputLayer.neuron_bias[31:0]} {MLP_tb.UUT.InputLayer.dotResult[31:0]} MLP_tb.UUT.InputLayer.endFlag MLP_tb.UUT.InputLayer.myReset {MLP_tb.UUT.InputLayer.add_cycles[31:0]} {MLP_tb.UUT.InputLayer.operand[31:0]} {MLP_tb.UUT.InputLayer.neuron[31:0]} {MLP_tb.UUT.InputLayer.start_weights[31:0]} {MLP_tb.UUT.InputLayer.end_weights[31:0]} {MLP_tb.UUT.InputLayer.i[31:0]} {MLP_tb.UUT.InputLayer.state[1:0]} {MLP_tb.UUT.InputLayer.next_state[1:0]} {MLP_tb.UUT.InputLayer.weights[0:23][31:0]} {MLP_tb.UUT.InputLayer.biases[0:3][31:0]} {MLP_tb.UUT.InputLayer.outputs[0:3][31:0]} {MLP_tb.UUT.InputLayer.WeightsVector[0:5][31:0]} {MLP_tb.UUT.InputLayer.N_NEURONS[31:0]} {MLP_tb.UUT.InputLayer.N_INPUTS[31:0]} {MLP_tb.UUT.InputLayer.N_WEIGHTS[31:0]} } -insertionbar
+gui_zoom -window Wave.1 -full
+gui_marker_move -id  Wave.1 C1 258401328
+gui_wv_zoom_timerange -id  Wave.1 0 22501239
+gui_wv_zoom_timerange -id  Wave.1 0 148453
+gui_marker_move -id  Wave.1 C1 56387
+gui_marker_move -id  Wave.1 C1 9514
+gui_marker_move -id  Wave.1 C1 21967
+gui_wv_zoom_timerange -id  Wave.1 979 63523
+gui_list_select -id Wave.1 -selected  { {MLP_tb.UUT.InputLayer.AddResult[31:0]}   }
+gui_list_set_selected_property -id Wave.1 -radix Hex2Float_BigEndian
+gui_list_select -id Wave.1 -selected  { {MLP_tb.UUT.InputLayer.dotResult[31:0]}   }
+gui_list_set_selected_property -id Wave.1 -radix Hex2Float_BigEndian
+gui_list_select -id Wave.1 -selected  { {MLP_tb.UUT.InputLayer.operand[31:0]}   }
+gui_list_set_selected_property -id Wave.1 -radix Hex2Float_BigEndian
+gui_list_select -id Wave.1 -selected  { {MLP_tb.UUT.InputLayer.neuron_bias[31:0]}   }
+gui_list_set_selected_property -id Wave.1 -radix Hex2Float_BigEndian
+gui_close_window -window TopLevel.2
+gui_list_select -id Hier.1 -current_item_name MLP_tb.UUT.OutputLayer -current_item_type Scope  -selected  { MLP_tb.UUT.OutputLayer   }
+gui_open_window Wave
+gui_list_add -id Wave.1 -from Data.1 { {MLP_tb.UUT.OutputLayer.inputs[0:3][31:0]} MLP_tb.UUT.OutputLayer.reset MLP_tb.UUT.OutputLayer.CLK {MLP_tb.UUT.OutputLayer.AddResult[31:0]} {MLP_tb.UUT.OutputLayer.neuron_bias[31:0]} {MLP_tb.UUT.OutputLayer.dotResult[31:0]} MLP_tb.UUT.OutputLayer.endFlag MLP_tb.UUT.OutputLayer.myReset {MLP_tb.UUT.OutputLayer.add_cycles[31:0]} {MLP_tb.UUT.OutputLayer.operand[31:0]} {MLP_tb.UUT.OutputLayer.neuron[31:0]} {MLP_tb.UUT.OutputLayer.start_weights[31:0]} {MLP_tb.UUT.OutputLayer.end_weights[31:0]} {MLP_tb.UUT.OutputLayer.i[31:0]} {MLP_tb.UUT.OutputLayer.state[1:0]} {MLP_tb.UUT.OutputLayer.next_state[1:0]} {MLP_tb.UUT.OutputLayer.weights[0:7][31:0]} {MLP_tb.UUT.OutputLayer.biases[0:1][31:0]} {MLP_tb.UUT.OutputLayer.outputs[0:1][31:0]} {MLP_tb.UUT.OutputLayer.WeightsVector[0:3][31:0]} {MLP_tb.UUT.OutputLayer.N_NEURONS[31:0]} {MLP_tb.UUT.OutputLayer.N_INPUTS[31:0]} {MLP_tb.UUT.OutputLayer.N_WEIGHTS[31:0]} {MLP_tb.UUT.OutputLayer.ADD_CYLCES_NEEDED[31:0]} {MLP_tb.UUT.OutputLayer.START[1:0]} } -insertionbar
+gui_zoom -window Wave.1 -full
+gui_wv_zoom_timerange -id  Wave.1 0 23975529
+gui_wv_zoom_timerange -id  Wave.1 0 678553
+gui_marker_move -id  Wave.1 C1 22950
+gui_wv_zoom_timerange -id  Wave.1 0 44170
+gui_list_select -id Wave.1 -selected  { {MLP_tb.UUT.OutputLayer.AddResult[31:0]}   }
+gui_list_add  -id  Wave.1   -after {MLP_tb.UUT.OutputLayer.AddResult[31:0]} {{MLP_tb.UUT.OutputLayer.AddResult[31:0]}} 
+gui_list_set_selected_property -id Wave.1 -radix Hex2Float_BigEndian
+gui_marker_move -id  Wave.1 C1 5125
+gui_wv_scrollright -id  Wave.1  line
+gui_wv_scrollright -id  Wave.1  line
+gui_wv_scrollright -id  Wave.1  line
+gui_wv_scrollright -id  Wave.1  line
+gui_wv_scrollright -id  Wave.1  line
+gui_wv_scrollright -id  Wave.1  line
+gui_wv_scrollright -id  Wave.1  line
+gui_wv_scrollright -id  Wave.1  line
+gui_wv_scrollright -id  Wave.1  line
+gui_wv_scrollright -id  Wave.1  line
+gui_wv_scrollright -id  Wave.1  line
+gui_wv_scrollright -id  Wave.1  line
+gui_wv_scrollright -id  Wave.1  line
+gui_wv_scrollright -id  Wave.1  line
+gui_wv_scrollright -id  Wave.1  line
+gui_wv_scrollright -id  Wave.1  line
+gui_wv_scrollright -id  Wave.1  line
+gui_wv_scrollright -id  Wave.1  line
+gui_wv_scrollright -id  Wave.1  line
+gui_wv_scrollright -id  Wave.1  line
+gui_wv_scrollright -id  Wave.1  line
+gui_wv_scrollright -id  Wave.1  line
+gui_wv_scrollright -id  Wave.1  line
+gui_wv_scrollright -id  Wave.1  line
+gui_wv_scrollright -id  Wave.1  line
+gui_wv_scrollright -id  Wave.1  line
+gui_wv_scrollright -id  Wave.1  line
+gui_wv_scrollright -id  Wave.1  line
+gui_wv_scrollright -id  Wave.1  line
+gui_wv_scrollright -id  Wave.1  line
+gui_wv_scrollright -id  Wave.1  line
+gui_wv_scrollright -id  Wave.1  line
+gui_wv_scrollright -id  Wave.1  line
+gui_wv_scrollright -id  Wave.1  line
+gui_wv_scrollleft -id  Wave.1  line
+gui_wv_scrollleft -id  Wave.1  line
+gui_wv_scrollleft -id  Wave.1  line
+gui_wv_scrollleft -id  Wave.1  line
+gui_wv_scrollleft -id  Wave.1  line
+gui_wv_scrollleft -id  Wave.1  line
+gui_wv_scrollleft -id  Wave.1  line
+gui_wv_scrollleft -id  Wave.1  line
+gui_wv_scrollleft -id  Wave.1  line
+gui_wv_scrollleft -id  Wave.1  line
+gui_wv_scrollleft -id  Wave.1  line
+gui_wv_scrollleft -id  Wave.1  line
+gui_wv_scrollleft -id  Wave.1  line
+gui_wv_scrollleft -id  Wave.1  line
+gui_wv_scrollleft -id  Wave.1  line
+gui_wv_scrollleft -id  Wave.1  line
+gui_wv_scrollleft -id  Wave.1  line
+gui_wv_scrollleft -id  Wave.1  line
+gui_wv_scrollleft -id  Wave.1  line
+gui_wv_scrollleft -id  Wave.1  line
+gui_wv_scrollleft -id  Wave.1  line
+gui_wv_scrollleft -id  Wave.1  line
+gui_wv_scrollleft -id  Wave.1  line
+gui_wv_scrollleft -id  Wave.1  line
+gui_wv_scrollleft -id  Wave.1  line
+gui_wv_scrollleft -id  Wave.1  line
+gui_wv_scrollleft -id  Wave.1  line
+gui_wv_scrollleft -id  Wave.1  line
+gui_wv_scrollleft -id  Wave.1  line
+gui_wv_scrollleft -id  Wave.1  line
+gui_wv_scrollleft -id  Wave.1  line
+gui_wv_scrollleft -id  Wave.1  line
+gui_wv_scrollleft -id  Wave.1  line
+gui_wv_scrollleft -id  Wave.1  line
+gui_wv_scrollleft -id  Wave.1  line
+gui_wv_scrollleft -id  Wave.1  line
+gui_wv_scrollleft -id  Wave.1  line
+gui_wv_scrollleft -id  Wave.1  line
+gui_wv_scrollleft -id  Wave.1  line
+gui_wv_scrollright -id  Wave.1  line
+gui_wv_scrollright -id  Wave.1  line
+gui_wv_scrollright -id  Wave.1  line
+gui_wv_scrollright -id  Wave.1  line
+gui_wv_scrollright -id  Wave.1  line
+gui_wv_scrollright -id  Wave.1  line
+gui_wv_scrollright -id  Wave.1  line
+gui_wv_scrollright -id  Wave.1  line
+gui_wv_scrollright -id  Wave.1  line
+gui_wv_scrollright -id  Wave.1  line
+gui_wv_scrollright -id  Wave.1  line
+gui_wv_scrollright -id  Wave.1  line
+gui_wv_scrollright -id  Wave.1  line
+gui_wv_scrollright -id  Wave.1  line
+gui_wv_scrollright -id  Wave.1  line
+gui_wv_scrollright -id  Wave.1  line
+gui_wv_scrollright -id  Wave.1  line
+gui_wv_scrollright -id  Wave.1  line
+gui_wv_scrollright -id  Wave.1  line
+gui_wv_scrollright -id  Wave.1  line
+gui_wv_scrollright -id  Wave.1  line
+gui_wv_scrollright -id  Wave.1  line
+gui_wv_scrollright -id  Wave.1  line
+gui_wv_scrollright -id  Wave.1  line
+gui_wv_scrollright -id  Wave.1  line
+gui_wv_scrollright -id  Wave.1  line
+gui_wv_scrollright -id  Wave.1  line
+gui_wv_scrollright -id  Wave.1  line
+gui_wv_scrollright -id  Wave.1  line
+gui_wv_scrollright -id  Wave.1  line
+gui_wv_scrollright -id  Wave.1  line
+gui_wv_scrollright -id  Wave.1  line
+gui_wv_scrollright -id  Wave.1  line
+gui_wv_scrollright -id  Wave.1  line
+gui_wv_scrollright -id  Wave.1  line
+gui_wv_scrollright -id  Wave.1  line
+gui_wv_scrollleft -id  Wave.1  line
+gui_wv_scrollleft -id  Wave.1  line
+gui_wv_scrollleft -id  Wave.1  line
+gui_wv_scrollleft -id  Wave.1  line
+gui_wv_scrollleft -id  Wave.1  line
+gui_wv_scrollleft -id  Wave.1  line
+gui_wv_scrollleft -id  Wave.1  line
+gui_wv_scrollleft -id  Wave.1  line
+gui_wv_scrollleft -id  Wave.1  line
+gui_wv_scrollleft -id  Wave.1  line
+gui_wv_scrollleft -id  Wave.1  line
+gui_wv_scrollleft -id  Wave.1  line
+gui_wv_scrollleft -id  Wave.1  line
+gui_wv_scrollleft -id  Wave.1  line
+gui_wv_scrollleft -id  Wave.1  line
+gui_wv_scrollleft -id  Wave.1  line
+gui_wv_scrollleft -id  Wave.1  line
+gui_wv_scrollleft -id  Wave.1  line
+gui_wv_scrollleft -id  Wave.1  line
+gui_wv_scrollleft -id  Wave.1  line
+gui_wv_scrollleft -id  Wave.1  line
+gui_wv_scrollleft -id  Wave.1  line
+gui_wv_scrollleft -id  Wave.1  line
+gui_wv_scrollleft -id  Wave.1  line
+gui_wv_scrollleft -id  Wave.1  line
+gui_wv_scrollleft -id  Wave.1  line
+gui_wv_scrollleft -id  Wave.1  line
+gui_wv_scrollleft -id  Wave.1  line
+gui_wv_scrollleft -id  Wave.1  line
+gui_wv_scrollleft -id  Wave.1  line
+gui_wv_scrollleft -id  Wave.1  line
+gui_wv_scrollleft -id  Wave.1  line
+gui_wv_scrollleft -id  Wave.1  line
+gui_wv_scrollleft -id  Wave.1  line
+gui_wv_scrollleft -id  Wave.1  line
+gui_wv_scrollleft -id  Wave.1  line
+gui_wv_scrollleft -id  Wave.1  line
+gui_wv_scrollleft -id  Wave.1  line
+gui_wv_scrollleft -id  Wave.1  line
+gui_wv_scrollleft -id  Wave.1  line
+gui_wv_scrollleft -id  Wave.1  line
+gui_wv_scrollleft -id  Wave.1  line
+gui_wv_scrollleft -id  Wave.1  line
+gui_wv_scrollleft -id  Wave.1  line
+gui_wv_scrollleft -id  Wave.1  line
+gui_wv_scrollleft -id  Wave.1  line
+gui_marker_move -id  Wave.1 C1 13376
+gui_get_drivers -id Wave.1 -signal {MLP_tb.UUT.OutputLayer.neuron_bias[31:0]}
+gui_save_session -reload -default_file
+gui_set_pref_value -category {Globals} -key {use_mhpi_lookup} -value {false}
+gui_set_pref_value -category {Globals} -key {use_mhpi_lookup} -value {true}
+gui_list_select -id Wave.1 -selected  { MLP_tb.UUT.OutputLayer.reset   }
+gui_wv_zoom_timerange -id  Wave.1 3625 7542
+gui_wv_zoom_timerange -id  Wave.1 4109 4427
+gui_wv_zoom_timerange -id  Wave.1 4157 4165
+gui_zoom -window Wave.1 -full
+gui_wv_zoom_timerange -id  Wave.1 0 33962298
+gui_close_window -window TopLevel.2
+gui_list_select -id Data.1 -selected  { MLP_tb.UUT.InputLayer.reset_next   }
+gui_list_select -id Data.1 -selected  { MLP_tb.UUT.InputLayer.reset_next  {MLP_tb.UUT.InputLayer.inputs[0:5][31:0]}   }
+gui_list_select -id Data.1 -selected  { MLP_tb.UUT.InputLayer.reset_next  {MLP_tb.UUT.InputLayer.inputs[0:5][31:0]}  MLP_tb.UUT.InputLayer.reset   }
+gui_list_select -id Data.1 -selected  { MLP_tb.UUT.InputLayer.reset_next  {MLP_tb.UUT.InputLayer.inputs[0:5][31:0]}  MLP_tb.UUT.InputLayer.reset  MLP_tb.UUT.InputLayer.CLK   }
+gui_list_select -id Data.1 -selected  { MLP_tb.UUT.InputLayer.reset_next  {MLP_tb.UUT.InputLayer.inputs[0:5][31:0]}  MLP_tb.UUT.InputLayer.reset  MLP_tb.UUT.InputLayer.CLK  {MLP_tb.UUT.InputLayer.AddResult[31:0]}   }
+gui_list_select -id Data.1 -selected  { MLP_tb.UUT.InputLayer.reset_next  {MLP_tb.UUT.InputLayer.inputs[0:5][31:0]}  MLP_tb.UUT.InputLayer.reset  MLP_tb.UUT.InputLayer.CLK  {MLP_tb.UUT.InputLayer.AddResult[31:0]}  {MLP_tb.UUT.InputLayer.neuron_bias[31:0]}   }
+gui_list_select -id Data.1 -selected  { MLP_tb.UUT.InputLayer.reset_next  {MLP_tb.UUT.InputLayer.inputs[0:5][31:0]}  MLP_tb.UUT.InputLayer.reset  MLP_tb.UUT.InputLayer.CLK  {MLP_tb.UUT.InputLayer.AddResult[31:0]}  {MLP_tb.UUT.InputLayer.neuron_bias[31:0]}  {MLP_tb.UUT.InputLayer.dotResult[31:0]}   }
+gui_list_select -id Data.1 -selected  { MLP_tb.UUT.InputLayer.reset_next  {MLP_tb.UUT.InputLayer.inputs[0:5][31:0]}  MLP_tb.UUT.InputLayer.reset  MLP_tb.UUT.InputLayer.CLK  {MLP_tb.UUT.InputLayer.AddResult[31:0]}  {MLP_tb.UUT.InputLayer.neuron_bias[31:0]}   }
+gui_list_select -id Data.1 -selected  { MLP_tb.UUT.InputLayer.reset_next  {MLP_tb.UUT.InputLayer.inputs[0:5][31:0]}  MLP_tb.UUT.InputLayer.reset  MLP_tb.UUT.InputLayer.CLK  {MLP_tb.UUT.InputLayer.AddResult[31:0]}  {MLP_tb.UUT.InputLayer.neuron_bias[31:0]}  MLP_tb.UUT.InputLayer.endFlag   }
+gui_list_select -id Data.1 -selected  { MLP_tb.UUT.InputLayer.reset_next  {MLP_tb.UUT.InputLayer.inputs[0:5][31:0]}  MLP_tb.UUT.InputLayer.reset  MLP_tb.UUT.InputLayer.CLK  {MLP_tb.UUT.InputLayer.AddResult[31:0]}  {MLP_tb.UUT.InputLayer.neuron_bias[31:0]}  MLP_tb.UUT.InputLayer.endFlag  {MLP_tb.UUT.InputLayer.dotResult[31:0]}   }
+gui_list_select -id Data.1 -selected  { MLP_tb.UUT.InputLayer.reset_next  {MLP_tb.UUT.InputLayer.inputs[0:5][31:0]}  MLP_tb.UUT.InputLayer.reset  MLP_tb.UUT.InputLayer.CLK  {MLP_tb.UUT.InputLayer.AddResult[31:0]}  {MLP_tb.UUT.InputLayer.neuron_bias[31:0]}  MLP_tb.UUT.InputLayer.endFlag  {MLP_tb.UUT.InputLayer.dotResult[31:0]}  MLP_tb.UUT.InputLayer.myReset   }
+gui_list_select -id Data.1 -selected  { MLP_tb.UUT.InputLayer.reset_next  {MLP_tb.UUT.InputLayer.inputs[0:5][31:0]}  MLP_tb.UUT.InputLayer.reset  MLP_tb.UUT.InputLayer.CLK  {MLP_tb.UUT.InputLayer.AddResult[31:0]}  {MLP_tb.UUT.InputLayer.neuron_bias[31:0]}  MLP_tb.UUT.InputLayer.endFlag  {MLP_tb.UUT.InputLayer.dotResult[31:0]}  MLP_tb.UUT.InputLayer.myReset  {MLP_tb.UUT.InputLayer.add_cycles[31:0]}   }
+gui_list_select -id Data.1 { {MLP_tb.UUT.InputLayer.operand[31:0]}   }
+gui_list_select -id Data.1 { {MLP_tb.UUT.InputLayer.neuron[31:0]}   }
+gui_list_select -id Data.1 { {MLP_tb.UUT.InputLayer.start_weights[31:0]}   }
+gui_list_select -id Data.1 { {MLP_tb.UUT.InputLayer.end_weights[31:0]}   }
+gui_list_select -id Data.1 { {MLP_tb.UUT.InputLayer.i[31:0]}   }
+gui_list_select -id Data.1 { {MLP_tb.UUT.InputLayer.state[1:0]}   }
+gui_list_select -id Data.1 { {MLP_tb.UUT.InputLayer.next_state[1:0]}   }
+gui_list_select -id Data.1 { {MLP_tb.UUT.InputLayer.biases[0:3][31:0]}   }
+gui_list_select -id Data.1 { {MLP_tb.UUT.InputLayer.WeightsVector[0:5][31:0]}   }
+gui_list_select -id Data.1 { {MLP_tb.UUT.InputLayer.outputs[0:3][31:0]}   }
+gui_list_select -id Data.1 { {MLP_tb.UUT.InputLayer.weights[0:23][31:0]}   }
+gui_open_window Wave
+gui_list_add -id Wave.1 -from Data.1 { MLP_tb.UUT.InputLayer.reset_next {MLP_tb.UUT.InputLayer.inputs[0:5][31:0]} MLP_tb.UUT.InputLayer.reset MLP_tb.UUT.InputLayer.CLK {MLP_tb.UUT.InputLayer.AddResult[31:0]} {MLP_tb.UUT.InputLayer.neuron_bias[31:0]} {MLP_tb.UUT.InputLayer.dotResult[31:0]} MLP_tb.UUT.InputLayer.endFlag MLP_tb.UUT.InputLayer.myReset {MLP_tb.UUT.InputLayer.add_cycles[31:0]} {MLP_tb.UUT.InputLayer.operand[31:0]} {MLP_tb.UUT.InputLayer.neuron[31:0]} {MLP_tb.UUT.InputLayer.start_weights[31:0]} {MLP_tb.UUT.InputLayer.end_weights[31:0]} {MLP_tb.UUT.InputLayer.i[31:0]} {MLP_tb.UUT.InputLayer.state[1:0]} {MLP_tb.UUT.InputLayer.next_state[1:0]} {MLP_tb.UUT.InputLayer.weights[0:23][31:0]} {MLP_tb.UUT.InputLayer.biases[0:3][31:0]} {MLP_tb.UUT.InputLayer.outputs[0:3][31:0]} {MLP_tb.UUT.InputLayer.WeightsVector[0:5][31:0]} } -insertionbar
+gui_save_session -reload -default_file
+gui_set_pref_value -category {Globals} -key {use_mhpi_lookup} -value {false}
+gui_set_pref_value -category {Globals} -key {use_mhpi_lookup} -value {true}
+gui_zoom -window Wave.1 -full
+gui_wv_zoom_timerange -id  Wave.1 0 8815212
+gui_wv_zoom_timerange -id  Wave.1 0 208102
+gui_marker_move -id  Wave.1 C1 76450
+gui_wv_scroll_hslidermove -id  Wave.1 0
+gui_marker_move -id  Wave.1 C1 59460
+gui_marker_move -id  Wave.1 C1 67009
+gui_get_drivers -id Wave.1 -signal {MLP_tb.UUT.InputLayer.AddResult[31:0]}
