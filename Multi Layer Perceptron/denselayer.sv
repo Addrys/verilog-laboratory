@@ -52,13 +52,10 @@ localparam DOTPRODUCT = 2'b01;
 localparam ADD_BIAS = 2'b10;
 localparam RELU = 2'b11;
 
-int resetcount;
-localparam RESET_CYCLES = 10;
+
 
 always@(posedge CLK) begin
     if(reset) begin
-        //dotResult <= 32'b0;
-        resetcount <= 0;
         layer_end <= 0;
         operand <= 32'b0;
         neuron_bias <= 32'b0;
@@ -72,7 +69,6 @@ always@(posedge CLK) begin
     end else if(prev_layer_end) begin
         state <= next_state;
         myReset <= 0;
-        //neuron <= 0;
         if (neuron < N_NEURONS && state == DOTPRODUCT) begin
             //Each neuron
             //1. Calculate the dot product InputsxWeights
@@ -87,13 +83,6 @@ always@(posedge CLK) begin
             neuron_bias <= biases[neuron];
             
         end
-        //if(endFlag && !myReset) begin
-            //ended Dot Product, now we need to add the BIAS
-                //outputs[neuron] <= dotResult;
-                //myReset <= 1;
-                //neuron <= neuron + 1;
-                //next_state = ADD_BIAS;
-        //end
 
         if(state == ADD_BIAS) begin
             add_cycles = add_cycles + 1;
