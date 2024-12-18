@@ -6,8 +6,8 @@
 module DotProduct #(
     parameter VECTOR_SIZE = 50
 )(
-    output reg [31:0] result,
-    output reg end_flag,
+    output reg [31:0] result,   // Result of the dot poduct
+    output reg end_flag,        // To signal the end of the Dot product
     input[31:0] vector_a[0:VECTOR_SIZE-1],
     input [31:0] vector_b [0:VECTOR_SIZE-1],
     input CLK,
@@ -15,7 +15,6 @@ module DotProduct #(
 );
 
 reg[31:0] A, B, sum;
-
 integer i, scaler;
 localparam Cycles = 20; //number of CLK cycles for the accumulator to end a operation
 reg[31:0] acc_reg;
@@ -48,11 +47,6 @@ always @(posedge CLK) begin
             result <= sum;
             end_flag <= 1; //indicates the end of the dot product
         end
-
     end
-    
-    
 end
-
-
 endmodule;

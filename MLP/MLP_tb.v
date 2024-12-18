@@ -17,14 +17,13 @@ initial begin
 end
 
 initial begin
-    $readmemh("iamge.txt", image);
+    $readmemh("image_5_bad.txt", image);
     $vcdpluson;
     
-
     reset = 1;
     #100;
     reset = 0;
-    #1000000;
+    #100000000;
     $finish;
 
 

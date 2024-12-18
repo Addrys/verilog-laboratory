@@ -1,0 +1,1 @@
+vcs -sverilog -debug_access+all   DotProduct.sv MultAccumulate.v denselayer.sv denselayer_tb.sv FPU_IP/FPU.v FPU_IP/post_norm.v FPU_IP/pre_norm_fmul.v FPU_IP/pre_norm.v FPU_IP/primitives.v FPU_IP/except.v

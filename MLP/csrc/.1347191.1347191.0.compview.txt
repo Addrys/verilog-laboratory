@@ -1,5 +1,0 @@
-{"vcs1":{"timestamp_begin":1733703134.654350449, "rt":0.12, "ut":0.05, "st":0.02}}
-{"SNPS_VCS_INTERNAL_ROOT_START_TIME": 1733703134.291990905}
-{"VCS_COMP_START_TIME": 1733703134.291990905}
-{"VCS_COMP_END_TIME": 1733703134.831016036}
-{"VCS_USER_OPTIONS": "-sverilog -debug_access+all DotProduct.sv MultAccumulate.v denselayer_tb.sv denselayer.sv FPU_IP/FPU.v FPU_IP/post_norm.v FPU_IP/pre_norm_fmul.v FPU_IP/pre_norm.v FPU_IP/primitives.v FPU_IP/except.v"}

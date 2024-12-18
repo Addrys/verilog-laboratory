@@ -8,11 +8,14 @@ module layer #(
     parameter N_NEURONS = 128,    //Number of neurons of the layer (Will be the number of outputs)
     parameter N_INPUTS = 784,     //Number of inputs or Outputs of previous layer
     parameter N_WEIGHTS  = 100352, // This is precalculated, NEURONS * WEIGHTS
-    parameter END_LAYER = 0         // If last layer (1), don't perform ReLUf, Sigmoidf will be performed on Top(MLP) module
+    parameter END_LAYER = 0
+    //parameter END_LAYER = 0         // If last layer (1), don't perform ReLUf, Sigmoidf will be performed on Top(MLP) module
 )(  //32b FP IEEE 754 format numbers
     output reg [31:0] outputs[0:N_NEURONS-1],
+    output reg layer_end,
     input [31:0] inputs[0:N_INPUTS-1], 
     input reset,
+    input prev_layer_end,
     input CLK
 );
 //Load the weights and biases from the trained model, they will be loaded on the top module using the pretrained values
@@ -35,9 +38,10 @@ reg myReset;
 
 DotProduct #(N_INPUTS) DP (dotResult, endFlag, inputs, WeightsVector, CLK, myReset );
 
-localparam ADD_CYLCES_NEEDED = 15;
+localparam ADD_CYLCES_NEEDED = 20;
 integer add_cycles;
-fpu adder   (   CLK, `round_down, `Addition,    neuron_bias, dotResult,   AddResult,         a, b, c, d, e, f, g, h);
+reg [31:0] operand;
+fpu adder   (   CLK, `round_down, `Addition,    neuron_bias, operand,   AddResult,         a, b, c, d, e, f, g, h);
 integer neuron, start_weights, end_weights, i;
 
 
@@ -48,84 +52,71 @@ localparam DOTPRODUCT = 2'b01;
 localparam ADD_BIAS = 2'b10;
 localparam RELU = 2'b11;
 
-
+localparam RESET_CYCLES = 10;
 
 always@(posedge CLK) begin
     if(reset) begin
-        //dotResult <= 32'b0;
-        neuron_bias <= 32'b0;
-        myReset <= 1;
-        state <= START;
-        start_weights <= 0;
-        end_weights <= 0;
-        neuron <= 0;
-        i <= 0;
-        add_cycles <= 0;
-    end else begin
+        layer_end <= 0;operand <= 32'b0;neuron_bias <= 32'b0;
+        myReset <= 1;state <= START;start_weights <= 0;end_weights <= 0;
+        neuron <= 0;i <= 0;add_cycles <= 0;
+    end else if(prev_layer_end) begin
         state <= next_state;
         myReset <= 0;
-        //neuron <= 0;
         if (neuron < N_NEURONS && state == DOTPRODUCT) begin
-            //Each neuron
-            //1. Calculate the dot product InputsxWeights
-            //2. Add bias
-            //3. Perform RELU
+            //Each neuron//1. Calculate the dot product InputsxWeights // 2. Add bias //3. Perform RELU
             start_weights <= neuron * N_INPUTS;
             end_weights <= ((neuron+1) * N_INPUTS) -1;
-
             for (int i = 0; i < N_INPUTS; i = i + 1) begin
-                WeightsVector[i] <= weights[start_weights + i]; //Copy the slice on the array.
+                WeightsVector[i] <= weights[start_weights + i]; //get the neuron weigths subarray
             end
             neuron_bias <= biases[neuron];
-            
         end
-        if(endFlag && !myReset) begin
-            //ended Dot Product, now we need to add the BIAS
-                //outputs[neuron] <= dotResult;
-                //myReset <= 1;
-                //neuron <= neuron + 1;
-
-        end
-
         if(state == ADD_BIAS) begin
             add_cycles = add_cycles + 1;
         end
         if(state == RELU) begin
-            outputs[neuron] <= AddResult[31] ? 32'b0 : AddResult;
-            //outputs[neuron] <= AddResult[31] ? AddResult : AddResult;
-            neuron <= neuron + 1;
-            myReset <= 1;
+            outputs[neuron] <= AddResult[31] && !END_LAYER ? 31'b0 : AddResult;
+            if(neuron < N_NEURONS) begin
+                neuron <= neuron + 1;
+                myReset <= 1;
+            end else begin
+                layer_end <= 1;
+            end 
         end
     end
 end
 
-
-
 always @(*) begin
-    case (state)
+    if(prev_layer_end)begin
+        case (state)
         START: begin
+            //layer_end <= 0;
             next_state = DOTPRODUCT; 
         end
         DOTPRODUCT: begin
-            if (endFlag)
-                next_state = ADD_BIAS;  // Transition to STATE_2
-            else
-                next_state = DOTPRODUCT;  // Stay in STATE_1
+            if (endFlag && !myReset) begin
+                //myReset <= 1;
+                operand <= dotResult;
+                next_state <= ADD_BIAS;  
+            end  else
+                next_state <= DOTPRODUCT; 
         end
         
         ADD_BIAS: begin
             if (add_cycles < ADD_CYLCES_NEEDED)
-                next_state = ADD_BIAS;  // Transition to STATE_3
+                next_state = ADD_BIAS;  
             else
-                next_state = RELU;  // Stay in STATE_2
+                next_state = RELU;  
         end
-        
         RELU: begin
-                next_state = START;  // Stay in STATE_3
+                add_cycles = 0;
+                next_state = START;  
         end
         
-        default: next_state = START;  // Default state (safety)
+        default: next_state = START;
     endcase
+    end
+    
 end
 
 
